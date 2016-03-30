@@ -1,8 +1,6 @@
 # TopsConnect
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/tops_connect`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+TopsConnect is a Ruby gem for accessing the Tops Connect API.
 
 ## Installation
 
@@ -10,10 +8,6 @@ Add this line to your application's Gemfile:
 
 ```ruby
 gem 'tops_connect'
-
-tops = TopsConnect::Client.new subscription_key: '0123456789abcdef0123456789abcdef'
-
-
 ```
 
 And then execute:
@@ -26,7 +20,20 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+TopsConnect.configure do |config|
+  config.subscription_key = '0123456789abcdef0123456789abcdef'
+  config.client_id = '00000000-1111-2222-3333-444444444444'
+  config.software_key = '55555555-6666-7777-8888-999999999999'
+  config.community_api_key = 'AAAAAAAA-BBBB-CCCC-DDDD-EEEEEEEEEEEE'
+end
+
+tops = TopsConnect::Client.new
+
+tops.communities.each do |community|
+  puts community['Name']
+end
+```
 
 ## Development
 
@@ -36,8 +43,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/tops_connect.
-
+Bug reports and pull requests are welcome on GitHub at https://github.com/ValenciaMgmt/tops_connect.
 
 ## License
 
