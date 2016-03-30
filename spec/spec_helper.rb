@@ -3,7 +3,7 @@ require 'webmock/rspec'
 require 'tops_connect'
 
 def stubbed_get_response(path)
-  data_path = "../../../data/#{path.gsub(%r{/?sandbox/api/?}, '')}.json"
+  data_path = "../../data/#{path.gsub(%r{/?sandbox/api/?}, '')}.json"
 
   {
     body: File.new(File.expand_path(data_path, __FILE__)),
@@ -11,7 +11,6 @@ def stubbed_get_response(path)
     headers: {
       'Content-Type': 'application/json; charset=utf-8',
       'Cache-Control': 'no-cache',
-      'Content-Encoding': 'gzip',
       # 'Content-Length': '435',
       'Date': 'Wed, 30 Mar 2016 17:49:27 GMT',
       'Expires': '-1',
@@ -55,5 +54,5 @@ end
 # directory, and new data can be found through the Postman client.
 WebMock.disable_net_connect!
 
-stub_request(:get, %r{topsconnectapi.azure-api.net/sandbox/api})
+WebMock.stub_request(:get, %r{topsconnectapi.azure-api.net/sandbox/api})
   .to_return { |request| stubbed_get_response(request.uri.path) }
