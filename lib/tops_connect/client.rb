@@ -26,7 +26,7 @@ module TopsConnect
 
     def get(endpoint, parameters = {})
       response = self.class.get(
-        "#{TopsConnect.configuration.zone}/api#{endpoint}",
+        "/#{TopsConnect.configuration.zone}/api#{endpoint}",
         query: parameters.merge('subscription-key' => @subscription_key)
       )
 
