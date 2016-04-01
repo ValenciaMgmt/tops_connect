@@ -1,0 +1,1 @@
+{"Links":[{"rel":"parent","href":"owner/3"},{"rel":"self","href":"balance/3"}],"BalanceDetails":[{"CashApplicationOrder":1,"ChargeCode":"A1","Year":"","Balance":35.00,"Description":"Fees"}],"BalanceTotal":35.0000,"OwnerKey":3,"Prepaid":0.0000,"Metadata":{"UsesYearlyAccounting":false,"UsesRentalAccounting":true}}
