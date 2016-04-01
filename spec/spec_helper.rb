@@ -3,7 +3,12 @@ require 'webmock/rspec'
 require 'tops_connect'
 
 def stubbed_get_response(uri)
-  data_file = "../../data/#{uri.path.gsub(%r{/?sandbox/api/?}, '')}.json"
+  query = uri.query.gsub(/&?subscription-key=\h{32}/, '').gsub(/\W/, '_')
+
+  path = [uri.path.gsub(%r{/?(broad|limited|sandbox)/api/?}, '')]
+  path << query unless query.empty?
+
+  data_file = "../../data/#{path.join('/')}.json"
 
   {
     body: File.new(File.expand_path(data_file, __FILE__)),
@@ -48,11 +53,14 @@ RSpec.configure do |config|
   config.order = :random
 
   Kernel.srand config.seed
+
+  config.before(:each) do
+    # This has to be a regex to match with the basic authentication in the URL
+    WebMock.stub_request(:any, /topsconnectapi\.azure-api\.net/)
+      .to_return { |request| stubbed_get_response(request.uri) }
+  end
 end
 
 # We never want to actually hit the API. All data should be stored in the data
 # directory, and new data can be found through the Postman client.
 WebMock.disable_net_connect!
-
-WebMock.stub_request(:get, 'topsconnectapi.azure-api.net')
-  .to_return { |request| stubbed_get_response(request.uri) }
