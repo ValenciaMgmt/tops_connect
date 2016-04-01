@@ -1,6 +1,5 @@
 AllCops:
   Include:
-    - Capfile
     - Gemfile
     - Rakefile
   TargetRubyVersion: 2.3
