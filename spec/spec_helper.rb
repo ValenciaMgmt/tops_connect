@@ -8,7 +8,7 @@ def stubbed_get_response(uri)
   path = [uri.path.gsub(%r{/?(broad|limited|sandbox)/api/?}, '')]
   path << query unless query.empty?
 
-  data_file = "../../data/#{path.join('/')}.json"
+  data_file = "../data/#{path.join('/')}.json"
 
   {
     body: File.new(File.expand_path(data_file, __FILE__)),
