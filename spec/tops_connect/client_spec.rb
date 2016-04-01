@@ -5,6 +5,7 @@ RSpec.describe TopsConnect::Client do
   describe '#new' do
     it 'creates a new client with a 32-character subscription key' do
       key = '0123456789abcdef0123456789abcdef'
+
       TopsConnect.configure { |config| config.subscription_key = key }
 
       expect(TopsConnect::Client.new).to be_a TopsConnect::Client
@@ -17,8 +18,9 @@ RSpec.describe TopsConnect::Client do
       ]
 
       keys.each do |key|
-        TopsConnect.configure { |config| config.subscription_key = key }
-        expect { TopsConnect::Client.new }.to raise_exception RuntimeError
+        expect do
+          TopsConnect.configure { |config| config.subscription_key = key }
+        end.to raise_exception RuntimeError
       end
     end
   end

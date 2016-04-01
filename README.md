@@ -26,6 +26,7 @@ TopsConnect.configure do |config|
   config.client_id = '00000000-1111-2222-3333-444444444444'
   config.software_key = '55555555-6666-7777-8888-999999999999'
   config.community_api_key = 'AAAAAAAA-BBBB-CCCC-DDDD-EEEEEEEEEEEE'
+  config.zone = :broad
 end
 
 tops = TopsConnect::Client.new

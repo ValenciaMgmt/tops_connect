@@ -3,8 +3,9 @@ require 'base64'
 require 'httparty'
 require 'json'
 
-require 'tops_connect/configuration'
 require 'tops_connect/communities'
+
+require 'tops_connect/configuration'
 require 'tops_connect/client'
 require 'tops_connect/version'
 

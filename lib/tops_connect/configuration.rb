@@ -1,18 +1,50 @@
 # frozen_string_literal: true
 module TopsConnect
   class Configuration
-    # Has default settings, which can be overridden in the initializer.
-
-    attr_accessor :subscription_key, :client_id, :software_key,
-                  :community_api_key, :sandbox
+    attr_reader :subscription_key, :client_id, :software_key,
+                :community_api_key, :zone
 
     def initialize
-      @sandbox = false
+    end
 
-      @subscription_key = ''
-      @client_id = ''
-      @software_key = ''
-      @community_api_key = ''
+    def subscription_key=(key)
+      unless key =~ /\A\h{32}\z/i
+        raise 'Invalid TOPS Subscription Key. Expected 32 hex characters.'
+      end
+
+      @subscription_key = key.downcase
+    end
+
+    def client_id=(key)
+      unless key =~ /\A\h{8}-\h{4}-\h{4}-\h{4}-\h{12}\z/
+        raise 'Invalid TOPS Client ID. Expected a GUID.'
+      end
+
+      @client_id = key.upcase
+    end
+
+    def software_key=(key)
+      unless key =~ /\A\h{8}-\h{4}-\h{4}-\h{4}-\h{12}\z/
+        raise 'Invalid TOPS Software Key. Expected a GUID.'
+      end
+
+      @software_key = key.upcase
+    end
+
+    def community_api_key=(key)
+      unless key =~ /\A\h{8}-\h{4}-\h{4}-\h{4}-\h{12}\z/
+        raise 'Invalid TOPS Community API Key. Expected a GUID.'
+      end
+
+      @community_api_key = key.upcase
+    end
+
+    def zone=(new_zone)
+      unless %i(broad limited sandbox).include?(new_zone)
+        raise 'Invalid TOPS Zone. Accepted values are broad, limited, sandbox.'
+      end
+
+      @zone = new_zone
     end
   end
 end
