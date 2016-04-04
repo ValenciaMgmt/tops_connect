@@ -40,11 +40,11 @@ module TopsConnect
     end
 
     def zone=(new_zone)
-      unless %i(broad limited sandbox).include?(new_zone)
+      unless %i(broad limited sandbox).include?(new_zone.to_sym)
         raise 'Invalid TOPS Zone. Accepted values are broad, limited, sandbox.'
       end
 
-      @zone = new_zone
+      @zone = new_zone.to_sym
     end
   end
 end
