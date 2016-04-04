@@ -11,7 +11,7 @@ module TopsConnect
     base_uri 'https://topsconnectapi.azure-api.net'
 
     def initialize
-      authorization = Base64.encode64 [
+      authorization = Base64.strict_encode64 [
         TopsConnect.configuration.client_id,
         TopsConnect.configuration.software_key
       ].join(':')
