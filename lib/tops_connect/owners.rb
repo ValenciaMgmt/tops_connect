@@ -4,7 +4,7 @@ module TopsConnect
     # Method: GET
     # Endpoint: Owner_Get
     def owner(owner_id)
-      get "/owner/#{owner_id.to_i}"
+      TopsConnect::Owner.new owner_id
     end
 
     # Method: GET
@@ -13,13 +13,9 @@ module TopsConnect
       parameters = {}
       parameters['PropertyKey'] = property_id.to_i if property_id
 
-      get '/owner', parameters
-    end
-
-    # Method: GET
-    # Endpoint: Balance_Get
-    def balance(owner_id)
-      get "/balance/#{owner_id.to_i}"
+      get('/owner', parameters).map do |owner|
+        TopsConnect::Owner.new owner['OwnerKey'], owner
+      end
     end
   end
 end

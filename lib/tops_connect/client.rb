@@ -22,6 +22,8 @@ module TopsConnect
       )
 
       @subscription_key = TopsConnect.configuration.subscription_key
+
+      TopsConnect::Base.client = self
     end
 
     def get(endpoint, parameters = {})
