@@ -33,10 +33,10 @@ module TopsConnect
       case response.code
       when 200
         response.parsed_response
-      when 400
-        raise BadRequest, response.parsed_response['Message']
+      when 400..499
+        raise BadRequest, response.parsed_response['message']
       else
-        raise "#{response.code}: #{response.parsed_response['Message']}"
+        raise "#{response.code}: #{response.parsed_response['message']}"
       end
     end
 
