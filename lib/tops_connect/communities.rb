@@ -4,13 +4,15 @@ module TopsConnect
     # Method: GET
     # Endpoint: Community_GetList
     def communities
-      get '/community'
+      get('/community').map do |community|
+        TopsConnect::Community.new community['CommunityKey'], community
+      end
     end
 
     # Method: GET
     # Endpoint: Community_Get
     def community(community_id)
-      get "/community/#{community_id.to_i}"
+      TopsConnect::Community.new community_id
     end
   end
 end

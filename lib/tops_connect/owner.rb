@@ -9,7 +9,11 @@ module TopsConnect
     end
 
     def data
-      @data ||= get "/owner/#{@id}"
+      @data || reload!
+    end
+
+    def reload!
+      @data = get "/owner/#{@id}"
     end
 
     def alternate_mailing_addresses
