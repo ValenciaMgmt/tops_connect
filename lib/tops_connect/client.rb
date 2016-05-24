@@ -5,31 +5,31 @@ module TopsConnect
     include TopsConnect::Communities
     include TopsConnect::Owners
 
+    attr_reader :community_id, :community_api_key
+
     headers 'Content-Type' => 'application/json'
     headers 'api-version' => '1'
 
     base_uri 'https://topsconnectapi.azure-api.net'
 
-    def initialize
+    def initialize(community_id, community_api_key)
       authorization = Base64.strict_encode64 [
         TopsConnect.configuration.client_id,
         TopsConnect.configuration.software_key
       ].join(':')
 
-      self.class.headers(
-        'authorization' => "Basic #{authorization}",
-        'community-api-key' => TopsConnect.configuration.community_api_key
-      )
+      self.class.headers('authorization' => "Basic #{authorization}")
 
       @subscription_key = TopsConnect.configuration.subscription_key
-
-      TopsConnect::Base.client = self
+      @community_id = community_id
+      @community_api_key = community_api_key
     end
 
-    def get(endpoint, parameters = {})
+    def get(endpoint, headers: {}, query: {})
       response = self.class.get(
         "/#{TopsConnect.configuration.zone}/api#{endpoint}",
-        query: parameters.merge('subscription-key' => @subscription_key)
+        query: query.merge('subscription-key' => @subscription_key),
+        headers: headers.merge('community-api-key' => @community_api_key)
       )
 
       case response.code

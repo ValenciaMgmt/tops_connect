@@ -2,11 +2,17 @@
 require 'webmock/rspec'
 require 'tops_connect'
 
-def stubbed_get_response(uri)
-  query = uri.query.gsub(/&?subscription-key=\h{32}/, '').gsub(/\W/, '_')
+def stubbed_get_response(request)
+  query = request.uri.query
+          .gsub(/&?subscription-key=\h{32}/, '')
+          .gsub(/\W/, '_')
 
-  path = [uri.path.gsub(%r{/?(broad|limited|sandbox)/api/?}, '')]
+  path = [request.uri.path.gsub(%r{/?(broad|limited|sandbox)/api/?}, '')]
   path << query unless query.empty?
+
+  unless request.headers['Community-Api-Key']
+    raise 'Did not send proper headers. Missing Community-Api-Key.'
+  end
 
   data_file = "../data/#{path.join('/')}.json"
 
@@ -31,7 +37,6 @@ TopsConnect.configure do |config|
   config.subscription_key = '0123456789abcdef0123456789abcdef'
   config.client_id = '00000000-1111-2222-3333-444444444444'
   config.software_key = '55555555-6666-7777-8888-999999999999'
-  config.community_api_key = 'AAAAAAAA-BBBB-CCCC-DDDD-EEEEEEEEEEEE'
   config.zone = :sandbox
 end
 
@@ -57,7 +62,7 @@ RSpec.configure do |config|
   config.before(:each) do
     # This has to be a regex to match with the basic authentication in the URL
     WebMock.stub_request(:any, /topsconnectapi\.azure-api\.net/)
-      .to_return { |request| stubbed_get_response(request.uri) }
+      .to_return { |request| stubbed_get_response(request) }
   end
 end
 

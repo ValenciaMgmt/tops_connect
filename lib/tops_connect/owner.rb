@@ -3,9 +3,11 @@ module TopsConnect
   class Owner < Base
     attr_reader :id
 
-    def initialize(id, data = nil)
+    def initialize(client, id, data = nil)
       @id = id.to_i
       @data = data
+
+      super client
     end
 
     def data

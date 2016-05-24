@@ -1,8 +1,7 @@
 # frozen_string_literal: true
 module TopsConnect
   class Configuration
-    attr_reader :subscription_key, :client_id, :software_key,
-                :community_api_key, :zone
+    attr_reader :subscription_key, :client_id, :software_key, :zone
 
     def initialize
     end
@@ -29,14 +28,6 @@ module TopsConnect
       end
 
       @software_key = key.upcase
-    end
-
-    def community_api_key=(key)
-      unless key =~ /\A\h{8}-\h{4}-\h{4}-\h{4}-\h{12}\z/
-        raise 'Invalid TOPS Community API Key. Expected a GUID.'
-      end
-
-      @community_api_key = key.upcase
     end
 
     def zone=(new_zone)

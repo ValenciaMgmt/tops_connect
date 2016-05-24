@@ -2,8 +2,11 @@
 require 'spec_helper'
 
 RSpec.describe TopsConnect::Community do
-  let(:client) { TopsConnect::Client.new }
-  let(:community) { client.community(6) }
+  let(:client) do
+    TopsConnect::Client.new(6, 'AAAAAAAA-BBBB-CCCC-DDDD-EEEEEEEEEEEE')
+  end
+
+  let(:community) { client.community }
 
   describe '#balance' do
     it 'GETs a list of charge codes' do

@@ -3,9 +3,10 @@ module TopsConnect
   class Community < Base
     attr_reader :id
 
-    def initialize(id, data = nil)
-      @id = id.to_i
+    def initialize(client, data = nil)
       @data = data
+
+      super client
     end
 
     def data
@@ -13,7 +14,7 @@ module TopsConnect
     end
 
     def reload!
-      @data = get "/community/#{@id}"
+      @data = get "/community/#{@client.community_id}"
     end
 
     def code

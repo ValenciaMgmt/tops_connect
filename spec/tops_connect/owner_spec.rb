@@ -2,7 +2,9 @@
 require 'spec_helper'
 
 RSpec.describe TopsConnect::Owner do
-  let(:client) { TopsConnect::Client.new }
+  let(:client) do
+    TopsConnect::Client.new(6, 'AAAAAAAA-BBBB-CCCC-DDDD-EEEEEEEEEEEE')
+  end
   let(:owner) { client.owner(3) }
 
   describe '#balance' do

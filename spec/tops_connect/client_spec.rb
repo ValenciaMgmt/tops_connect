@@ -8,7 +8,9 @@ RSpec.describe TopsConnect::Client do
 
       TopsConnect.configure { |config| config.subscription_key = key }
 
-      expect(TopsConnect::Client.new).to be_a TopsConnect::Client
+      expect(
+        TopsConnect::Client.new(6, 'AAAAAAAA-BBBB-CCCC-DDDD-EEEEEEEEEEEE')
+      ).to be_a TopsConnect::Client
     end
 
     it 'fails when the subscription key is not 32 hex characters' do

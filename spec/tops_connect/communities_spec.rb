@@ -2,7 +2,9 @@
 require 'spec_helper'
 
 RSpec.describe TopsConnect::Communities do
-  let(:client) { TopsConnect::Client.new }
+  let(:client) do
+    TopsConnect::Client.new(6, 'AAAAAAAA-BBBB-CCCC-DDDD-EEEEEEEEEEEE')
+  end
 
   describe '#communities' do
     it 'GETs a list of communities' do
