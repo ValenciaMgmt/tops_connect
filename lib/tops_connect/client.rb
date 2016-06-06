@@ -4,6 +4,7 @@ module TopsConnect
     include HTTParty
     include TopsConnect::Communities
     include TopsConnect::Owners
+    include TopsConnect::Properties
 
     attr_reader :community_id, :community_api_key
 

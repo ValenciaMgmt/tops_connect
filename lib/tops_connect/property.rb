@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 module TopsConnect
-  class Owner
+  class Property
     attr_reader :data
 
     def initialize(data)
@@ -8,7 +8,7 @@ module TopsConnect
     end
 
     def id
-      data['OwnerKey']
+      data['PropertyKey']
     end
 
     def alternate_mailing_addresses
