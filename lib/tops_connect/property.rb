@@ -1,16 +1,10 @@
 # frozen_string_literal: true
 module TopsConnect
-  class Property
-    attr_reader :data
-
-    def initialize(data)
-      @data = data
-    end
-
-    def id
+  class Property < Base
+    def property_key
       data['PropertyKey']
     end
-    alias property_key id
+    alias id property_key
 
     def account_number
       data['AccountNumber']

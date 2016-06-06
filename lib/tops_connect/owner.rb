@@ -1,16 +1,10 @@
 # frozen_string_literal: true
 module TopsConnect
-  class Owner
-    attr_reader :data
-
-    def initialize(data)
-      @data = data
-    end
-
-    def id
+  class Owner < Base
+    def owner_key
       data['OwnerKey']
     end
-    alias owner_key id
+    alias id owner_key
 
     def alternate_mailing_addresses
       [1, 2].map do |n|
@@ -32,11 +26,11 @@ module TopsConnect
       end.compact
     end
 
-    def property_id
+    def property_key
       data['PropertyKey']
     end
 
-    def community_id
+    def community_key
       data['CommunityKey']
     end
 

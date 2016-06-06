@@ -7,6 +7,7 @@ require 'tops_connect/communities'
 require 'tops_connect/owners'
 require 'tops_connect/properties'
 
+require 'tops_connect/base'
 require 'tops_connect/community'
 require 'tops_connect/owner'
 require 'tops_connect/property'
