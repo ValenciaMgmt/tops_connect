@@ -10,6 +10,7 @@ module TopsConnect
     def id
       data['OwnerKey']
     end
+    alias owner_key id
 
     def alternate_mailing_addresses
       [1, 2].map do |n|
@@ -64,6 +65,8 @@ module TopsConnect
     end
 
     def updated_at
+      return unless data['Metadata']['ModifiedDate']
+
       DateTime.parse data['Metadata']['ModifiedDate']
     end
 
@@ -76,11 +79,15 @@ module TopsConnect
     end
 
     def move_out_date
-      DateTime.parse data['MoveOutDate'] if data['MoveOutDate']
+      return unless data['MoveOutDate']
+
+      DateTime.parse data['MoveOutDate']
     end
 
     def settlement_date
-      DateTime.parse data['SettlementDate'] if data['SettlementDate']
+      return unless data['SettlementDate']
+
+      DateTime.parse data['SettlementDate']
     end
   end
 end

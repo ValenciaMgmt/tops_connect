@@ -6,11 +6,9 @@ RSpec.describe TopsConnect::Community do
     TopsConnect::Client.new(6, 'AAAAAAAA-BBBB-CCCC-DDDD-EEEEEEEEEEEE')
   end
 
-  let(:community) { client.community }
-
   describe '#balance' do
     it 'GETs a list of charge codes' do
-      codes = community.charge_codes
+      codes = client.charge_codes
 
       expect(codes.length).to eq 15
       expect(codes[4][:description]).to eq 'Interest'

@@ -10,77 +10,45 @@ module TopsConnect
     def id
       data['PropertyKey']
     end
+    alias property_key id
 
-    def alternate_mailing_addresses
-      [1, 2].map do |n|
-        next unless data["AltMailing#{n}AddressLine1"]
-
-        city = data["AltMailing#{n}City"]
-        state = data["AltMailing#{n}State"]
-        zip = data["AltMailing#{n}Zip"]
-
-        lines = [data["AltMailing#{n}AddressLine1"]]
-
-        if data["AltMailing#{n}AddressLine2"] !~ /[^[:space:]]/
-          lines << data["AltMailing#{n}AddressLine2"]
-        end
-
-        lines << "#{city}, #{state} #{zip}"
-
-        lines.reject(&:blank?).join("\n")
-      end.compact
+    def account_number
+      data['AccountNumber']
     end
 
-    def property_id
-      data['PropertyKey']
+    def address
+      "#{data['AddressNumber']} #{data['Street']}"
     end
 
-    def community_id
+    def city
+      data['City']
+    end
+
+    def state
+      data['State']
+    end
+
+    def address_number
+      data['AddressNumber']
+    end
+
+    def street
+      data['Street']
+    end
+
+    def zip
+      data['Zip']
+    end
+
+    def community_key
       data['CommunityKey']
     end
 
-    def legal_name
-      data['LegalName']
-    end
-
-    def alternate_name
-      data['AlternateName']
-    end
-
-    def home_phone
-      data['PhoneHome']
-    end
-
-    def alternate_phone
-      data['PhoneAlt']
-    end
-
-    def fax
-      data['PhoneFax']
-    end
-
-    def work_phone
-      data['PhoneWork']
-    end
-
     def updated_at
+      return unless data['Metadata']['ModifiedDate']
+
       DateTime.parse data['Metadata']['ModifiedDate']
     end
-
-    def owner?
-      data['ResidentType'] == 'Owner'
-    end
-
-    def tenant?
-      data['ResidentType'] == 'Tenant'
-    end
-
-    def move_out_date
-      DateTime.parse data['MoveOutDate'] if data['MoveOutDate']
-    end
-
-    def settlement_date
-      DateTime.parse data['SettlementDate'] if data['SettlementDate']
-    end
+    alias modified_date updated_at
   end
 end

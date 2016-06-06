@@ -1,11 +1,16 @@
 # frozen_string_literal: true
 module TopsConnect
   class Community
-    attr_reader :id
+    attr_reader :data
 
     def initialize(data)
       @data = data
     end
+
+    def id
+      data['CommunityKey']
+    end
+    alias community_key id
 
     def code
       data['CommunityID']
@@ -32,9 +37,10 @@ module TopsConnect
     end
 
     def updated_at
-      return nil unless data['Metadata']['ModifiedDate']
+      return unless data['Metadata']['ModifiedDate']
 
       DateTime.parse data['Metadata']['ModifiedDate']
     end
+    alias modified_date updated_at
   end
 end

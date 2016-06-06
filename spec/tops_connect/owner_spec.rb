@@ -9,7 +9,7 @@ RSpec.describe TopsConnect::Owner do
 
   describe '#balance' do
     it 'GETs an owner\'s balance' do
-      balance = owner.balance
+      balance = client.balance(owner.owner_key)
 
       expect(balance['BalanceTotal']).to eq 35
     end
@@ -17,7 +17,7 @@ RSpec.describe TopsConnect::Owner do
 
   describe '#charges' do
     it 'GETs the charges on an owner\'s account' do
-      charges = owner.charges
+      charges = client.charges(owner.id)
 
       expect(charges.length).to eq 1
     end
