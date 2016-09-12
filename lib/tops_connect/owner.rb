@@ -8,21 +8,25 @@ module TopsConnect
 
     def alternate_mailing_addresses
       [1, 2].map do |n|
-        next unless data["AltMailing#{n}AddressLine1"]
+        lines = []
+
+        if data["AltMailing#{n}AddressLine1"] =~ /[[:graph:]]/
+          lines << data["AltMailing#{n}AddressLine1"].strip
+        end
+
+        if data["AltMailing#{n}AddressLine2"] =~ /[[:graph:]]/
+          lines << data["AltMailing#{n}AddressLine2"].strip
+        end
+
+        next if lines.empty?
 
         city = data["AltMailing#{n}City"]
         state = data["AltMailing#{n}State"]
         zip = data["AltMailing#{n}Zip"]
 
-        lines = [data["AltMailing#{n}AddressLine1"]]
+        lines << "#{city}, #{state} #{zip}".strip
 
-        if data["AltMailing#{n}AddressLine2"] !~ /[^[:space:]]/
-          lines << data["AltMailing#{n}AddressLine2"]
-        end
-
-        lines << "#{city}, #{state} #{zip}"
-
-        lines.reject(&:blank?).join("\n")
+        lines.join("\n")
       end.compact
     end
 

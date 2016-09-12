@@ -7,6 +7,16 @@ RSpec.describe TopsConnect::Owner do
   end
   let(:owner) { client.owner(3) }
 
+  describe '#alternate_mailing_addresses' do
+    it 'loads mailing addresses for the owner' do
+      mailing_addresses = owner.alternate_mailing_addresses
+
+      expect(mailing_addresses.length).to eq 1
+
+      expect(mailing_addresses[0]).to eq "123 Main Street\nAnytown, CA 12345"
+    end
+  end
+
   describe '#balance' do
     it 'GETs an owner\'s balance' do
       balance = client.balance(owner.owner_key)
