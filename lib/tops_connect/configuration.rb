@@ -3,9 +3,6 @@ module TopsConnect
   class Configuration
     attr_reader :subscription_key, :client_id, :software_key, :zone
 
-    def initialize
-    end
-
     def subscription_key=(key)
       unless key =~ /\A\h{32}\z/i
         raise 'Invalid TOPS Subscription Key. Expected 32 hex characters.'
