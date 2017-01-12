@@ -37,13 +37,22 @@ module TopsConnect
       when 200
         response.parsed_response
       when 400..499
-        raise BadRequest, response.parsed_response['message']
+        raise TopsConnect::BadRequest, response.parsed_response['Message']
+      when 500..599
+        raise TopsConnect::InternalError, response.parsed_response['Message']
       else
-        raise "#{response.code}: #{response.parsed_response['message']}"
+        raise TopsConnect::ApiError,
+              "#{response.code}: #{response.parsed_response['Message']}"
       end
     end
+  end
 
-    class BadRequest < Exception
-    end
+  class ApiError < ::RuntimeError
+  end
+
+  class BadRequest < ApiError
+  end
+
+  class InternalError < ApiError
   end
 end
