@@ -27,7 +27,7 @@ module TopsConnect
     end
 
     def unit_number
-      data['AptNumber'].presence
+      data['AptNumber'] unless data['AptNumber'].blank?
     end
 
     def street
