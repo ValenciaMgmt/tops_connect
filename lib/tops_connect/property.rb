@@ -11,7 +11,7 @@ module TopsConnect
     end
 
     def address
-      "#{data['AddressNumber']} #{data['Street']}"
+      ["#{address_number} #{street}", unit_number].compact.join(' #')
     end
 
     def city
@@ -24,6 +24,10 @@ module TopsConnect
 
     def address_number
       data['AddressNumber']
+    end
+
+    def unit_number
+      data['AptNumber'].presence
     end
 
     def street
