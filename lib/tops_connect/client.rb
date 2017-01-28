@@ -33,24 +33,46 @@ module TopsConnect
         headers: headers.merge('community-api-key' => @community_api_key)
       )
 
+      raise_exception(response) unless response.code == 200
+
+      response.parsed_response
+    end
+
+    protected
+
+    def raise_exception(response)
       case response.code
-      when 200
-        response.parsed_response
+      when 404
+        raise TopsConnect::NotFoundError, response
       when 400..499
-        raise TopsConnect::BadRequest, response.parsed_response['Message']
+        raise TopsConnect::ClientError, response
       when 500..599
-        raise TopsConnect::InternalError, response.parsed_response['Message']
+        raise TopsConnect::InternalError, response
       else
-        raise TopsConnect::ApiError,
-              "#{response.code}: #{response.parsed_response['Message']}"
+        # As far as I'm aware, Tops does not return 100 - 199 or 201 - 399.
+        raise TopsConnect::ApiError, response
       end
     end
   end
 
   class ApiError < ::RuntimeError
+    def initialize(response)
+      @response = response
+    end
+
+    def to_s
+      '%{code}: %{message} (%{uri})'.format(
+        code: @response.code,
+        message: @response.parsed_response&.dig('Message'),
+        uri: @response.request.last_uri.to_s
+      )
+    end
   end
 
-  class BadRequest < ApiError
+  class ClientError < ApiError
+  end
+
+  class NotFoundError < ClientError
   end
 
   class InternalError < ApiError
