@@ -61,7 +61,8 @@ module TopsConnect
     end
 
     def to_s
-      '%{code}: %{message} (%{uri})'.format(
+      format(
+        '%{code}: %{message} (%{uri})',
         code: @response.code,
         message: @response.parsed_response&.dig('Message'),
         uri: @response.request.last_uri.to_s
