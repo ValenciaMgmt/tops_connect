@@ -3,6 +3,8 @@ require 'base64'
 require 'httparty'
 require 'json'
 
+require 'tops_connect/errors'
+
 require 'tops_connect/communities'
 require 'tops_connect/owners'
 require 'tops_connect/properties'

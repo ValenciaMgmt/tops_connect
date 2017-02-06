@@ -2,7 +2,6 @@
 module TopsConnect
   class Client
     include HTTParty
-    include TopsConnect::Errors
     include TopsConnect::Communities
     include TopsConnect::Owners
     include TopsConnect::Properties
