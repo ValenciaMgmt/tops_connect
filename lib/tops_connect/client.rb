@@ -47,35 +47,16 @@ module TopsConnect
       when 400..499
         raise TopsConnect::ClientError, response
       when 500..599
+        message = response.parsed_response&.dig('Message') || ''
+
+        # These errors can largely be ignored - it's not our fault
+        raise TopsConnect::TimeoutError, response if message['Timeout expired']
+
         raise TopsConnect::InternalError, response
       else
         # As far as I'm aware, Tops does not return 100 - 199 or 201 - 399.
         raise TopsConnect::ApiError, response
       end
     end
-  end
-
-  class ApiError < ::RuntimeError
-    def initialize(response)
-      @response = response
-    end
-
-    def to_s
-      format(
-        '%{code}: %{message} (%{uri})',
-        code: @response.code,
-        message: @response.parsed_response&.dig('Message'),
-        uri: @response.request.last_uri.to_s
-      )
-    end
-  end
-
-  class ClientError < ApiError
-  end
-
-  class NotFoundError < ClientError
-  end
-
-  class InternalError < ApiError
   end
 end
