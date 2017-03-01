@@ -87,5 +87,15 @@ module TopsConnect
 
       DateTime.parse data['SettlementDate']
     end
+
+    def hold_payment?
+      data['Metadata']['HoldPayment']
+    end
+
+    # The internal key used by Tops Pro - property number, homeowner type,
+    # owner number in the format PPPPPPTOOO.
+    def tops_id
+      data['Metadata']['TopsId']
+    end
   end
 end

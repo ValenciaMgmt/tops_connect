@@ -25,6 +25,12 @@ RSpec.describe TopsConnect::Owner do
     end
   end
 
+  describe '#hold_payment?' do
+    it 'indicates if an owner\'s payments are on hold status' do
+      expect(owner.hold_payment?).to be false
+    end
+  end
+
   describe '#charges' do
     it 'GETs the charges on an owner\'s account' do
       charges = client.charges(owner.id)
