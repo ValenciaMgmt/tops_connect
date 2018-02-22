@@ -23,6 +23,11 @@ module TopsConnect
       self.class.headers('authorization' => "Basic #{authorization}")
 
       @subscription_key = TopsConnect.configuration.subscription_key
+
+      switch_community(community_id, community_api_key)
+    end
+
+    def switch_community(community_id, community_api_key)
       @community_id = community_id
       @community_api_key = community_api_key
     end
