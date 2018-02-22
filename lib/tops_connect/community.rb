@@ -29,13 +29,13 @@ module TopsConnect
     end
 
     def last_synced_at
-      DateTime.parse data['LastSyncTime'] if data['LastSyncTime']
+      Time.parse data['LastSyncTime'] if data['LastSyncTime']
     end
 
     def modified_date
       return unless data['Metadata']['ModifiedDate']
 
-      DateTime.parse data['Metadata']['ModifiedDate']
+      Time.parse data['Metadata']['ModifiedDate']
     end
     alias updated_at modified_date
   end
