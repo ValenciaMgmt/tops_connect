@@ -3,7 +3,7 @@
 module TopsConnect
   class Property < Base
     def property_key
-      data['PropertyKey']
+      data['Key']
     end
     alias id property_key
 
@@ -12,42 +12,30 @@ module TopsConnect
     end
 
     def address
-      ["#{address_number} #{street}", unit_number].compact.join(' #')
-    end
+      property = data['Addresses']
+        .find { |row| row['Type']['Name'] == 'Property' }
 
-    def city
-      data['City']
-    end
+      lines = [
+        property['AddressLine1'],
+        property['AddressLine2'],
+        "#{property['City']}, #{property['State']} #{property['Zip']}"
+      ]
 
-    def state
-      data['State']
-    end
-
-    def address_number
-      data['AddressNumber']
-    end
-
-    def unit_number
-      data['AptNumber'] unless data['AptNumber'].blank?
-    end
-
-    def street
-      data['Street']
-    end
-
-    def zip
-      data['Zip']
+      lines
+        .map(&:strip)
+        .select { |line| line.match?(/[[:graph:]]/) }
+        .join("\n")
     end
 
     def community_key
       data['CommunityKey']
     end
 
-    def updated_at
+    def modified_date
       return unless data['Metadata']['ModifiedDate']
 
-      DateTime.parse data['Metadata']['ModifiedDate']
+      Time.parse data['Metadata']['ModifiedDate']
     end
-    alias modified_date updated_at
+    alias updated_at modified_date
   end
 end

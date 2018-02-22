@@ -10,9 +10,8 @@ module TopsConnect
     attr_reader :community_id, :community_api_key
 
     headers 'Content-Type' => 'application/json'
-    headers 'api-version' => '1'
 
-    base_uri 'https://topsconnectapi.azure-api.net'
+    base_uri 'https://topsconnectapi.azure-api.net/v2'
 
     def initialize(community_id, community_api_key)
       authorization = Base64.strict_encode64 [

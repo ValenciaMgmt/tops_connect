@@ -25,7 +25,7 @@ module TopsConnect
     # Endpoint: Balance_Get
     # Returns: Hash
     def balance(owner_key)
-      get "/balance/#{owner_key}"
+      get "/owner/#{owner_key}/balance"
     end
 
     # Method: GET
