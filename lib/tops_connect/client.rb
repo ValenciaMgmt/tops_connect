@@ -44,6 +44,32 @@ module TopsConnect
       response.parsed_response
     end
 
+    def put(endpoint, body: {}, headers: {}, query: {})
+      response = self.class.put(
+        "/#{TopsConnect.configuration.zone}/api#{endpoint}",
+        query: query.merge('subscription-key' => @subscription_key),
+        headers: headers.merge('community-api-key' => @community_api_key),
+        body: body
+      )
+
+      raise_exception(response) unless response.code == 204
+
+      response.parsed_response
+    end
+
+    def post(endpoint, body: {}, headers: {}, query: {})
+      response = self.class.post(
+        "/#{TopsConnect.configuration.zone}/api#{endpoint}",
+        query: query.merge('subscription-key' => @subscription_key),
+        headers: headers.merge('community-api-key' => @community_api_key),
+        body: body
+      )
+
+      raise_exception(response) unless response.code == 200
+
+      response.parsed_response
+    end
+
     protected
 
     def raise_exception(response)
