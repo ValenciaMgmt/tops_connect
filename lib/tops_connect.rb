@@ -3,6 +3,7 @@
 require 'base64'
 require 'httparty'
 require 'json'
+require 'time'
 
 require 'tops_connect/errors'
 

@@ -8,7 +8,7 @@ module TopsConnect
 
     def to_s
       format(
-        '%{code}: %{message} (%{uri})',
+        '%<code>s: %<message>s (%<uri>s)',
         code: @response.code,
         message: @response.parsed_response&.dig('Message'),
         uri: @response.request.last_uri.to_s

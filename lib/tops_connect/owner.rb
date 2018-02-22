@@ -3,31 +3,29 @@
 module TopsConnect
   class Owner < Base
     def owner_key
-      data['OwnerKey']
+      data['Key']
     end
     alias id owner_key
 
     def alternate_mailing_addresses
-      [1, 2].map do |n|
+      data['Addresses'].map do |row|
+        next unless row['Type']['Name'] == 'Alternate'
+
         lines = []
 
-        if data["AltMailing#{n}AddressLine1"] =~ /[[:graph:]]/
-          lines << data["AltMailing#{n}AddressLine1"].strip
+        if row['AddressLine1'].match?(/[[:graph:]]/)
+          lines << row['AddressLine1']
         end
 
-        if data["AltMailing#{n}AddressLine2"] =~ /[[:graph:]]/
-          lines << data["AltMailing#{n}AddressLine2"].strip
+        if row['AddressLine2'].match?(/[[:graph:]]/)
+          lines << row['AddressLine2']
         end
 
         next if lines.empty?
 
-        city = data["AltMailing#{n}City"]
-        state = data["AltMailing#{n}State"]
-        zip = data["AltMailing#{n}Zip"]
+        lines << "#{row['City']}, #{row['State']} #{row['Zip']}"
 
-        lines << "#{city}, #{state} #{zip}".strip
-
-        lines.join("\n")
+        lines.map(&:strip).join("\n")
       end.compact
     end
 
@@ -48,25 +46,33 @@ module TopsConnect
     end
 
     def home_phone
-      data['PhoneHome']
+      phone = data['Phones'].find { |row| row['Type']['Name'] == 'Home' }
+
+      phone['PhoneNumber'] if phone
     end
 
     def alternate_phone
-      data['PhoneAlt']
+      phone = data['Phones'].find { |row| row['Type']['Name'] == 'Alternate' }
+
+      phone['PhoneNumber'] if phone
     end
 
     def fax
-      data['PhoneFax']
+      phone = data['Phones'].find { |row| row['Type']['Name'] == 'Fax' }
+
+      phone['PhoneNumber'] if phone
     end
 
     def work_phone
-      data['PhoneWork']
+      phone = data['Phones'].find { |row| row['Type']['Name'] == 'Work' }
+
+      phone['PhoneNumber'] if phone
     end
 
     def updated_at
       return unless data['Metadata']['ModifiedDate']
 
-      DateTime.parse data['Metadata']['ModifiedDate']
+      Time.parse data['Metadata']['ModifiedDate']
     end
 
     def owner?
@@ -80,17 +86,21 @@ module TopsConnect
     def move_out_date
       return unless data['MoveOutDate']
 
-      DateTime.parse data['MoveOutDate']
+      Time.parse data['MoveOutDate']
     end
 
     def settlement_date
       return unless data['SettlementDate']
 
-      DateTime.parse data['SettlementDate']
+      Time.parse data['SettlementDate']
     end
 
     def hold_payment?
       data['Metadata']['HoldPayment']
+    end
+
+    def hold_collection?
+      data['Metadata']['HoldCollection']
     end
 
     # The internal key used by Tops Pro - property number, homeowner type,

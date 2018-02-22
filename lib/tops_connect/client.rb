@@ -60,7 +60,7 @@ module TopsConnect
 
         raise TopsConnect::InternalError, response
       else
-        # As far as I'm aware, Tops does not return 100 - 199 or 201 - 399.
+        # As far as I'm aware, Tops does not return 100 - 199 or 205 - 399.
         raise TopsConnect::ApiError, response
       end
     end

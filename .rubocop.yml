@@ -2,7 +2,7 @@ AllCops:
   Include:
     - Gemfile
     - Rakefile
-  TargetRubyVersion: 2.3
+  TargetRubyVersion: 2.5
 
 Metrics/AbcSize:
   Enabled: false
