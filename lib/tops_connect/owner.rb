@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 module TopsConnect
   class Owner < Base
     def owner_key

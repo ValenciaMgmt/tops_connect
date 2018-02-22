@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 module TopsConnect
   class Configuration
     attr_reader :subscription_key, :client_id, :software_key, :zone

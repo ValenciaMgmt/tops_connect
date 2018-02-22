@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 module TopsConnect
   class Client
     include HTTParty

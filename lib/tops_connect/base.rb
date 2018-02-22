@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 module TopsConnect
   class Base
     attr_reader :data
