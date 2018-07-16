@@ -1,6 +1,19 @@
 # frozen_string_literal: true
+
 require 'webmock/rspec'
 require 'tops_connect'
+
+DEFAULT_RESPONSE_HEADERS = {
+  'Content-Type': 'application/json; charset=utf-8',
+  'Cache-Control': 'no-cache',
+  # 'Content-Length': '435',
+  'Date': 'Wed, 30 Mar 2016 17:49:27 GMT',
+  'Expires': '-1',
+  'Pragma': 'no-cache',
+  'Vary': 'Accept-Encoding',
+  'X-AspNet-Version': '4.0.30319',
+  'X-Powered-By': 'ASP.NET'
+}.freeze
 
 def stubbed_get_response(request)
   query = request.uri.query
@@ -19,17 +32,7 @@ def stubbed_get_response(request)
   {
     body: File.new(File.expand_path(data_file, __FILE__)),
     status: 200,
-    headers: {
-      'Content-Type': 'application/json; charset=utf-8',
-      'Cache-Control': 'no-cache',
-      # 'Content-Length': '435',
-      'Date': 'Wed, 30 Mar 2016 17:49:27 GMT',
-      'Expires': '-1',
-      'Pragma': 'no-cache',
-      'Vary': 'Accept-Encoding',
-      'X-AspNet-Version': '4.0.30319',
-      'X-Powered-By': 'ASP.NET'
-    }
+    headers: DEFAULT_RESPONSE_HEADERS
   }
 end
 
