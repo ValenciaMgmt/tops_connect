@@ -5,7 +5,7 @@ module TopsConnect
     attr_reader :subscription_key, :client_id, :software_key, :zone
 
     def subscription_key=(key)
-      unless key.match?(/\A\h{32}\z/i)
+      unless key&.match?(/\A\h{32}\z/i)
         raise 'Invalid TOPS Subscription Key. Expected 32 hex characters.'
       end
 
@@ -13,7 +13,7 @@ module TopsConnect
     end
 
     def client_id=(key)
-      unless key.match?(/\A\h{8}-\h{4}-\h{4}-\h{4}-\h{12}\z/)
+      unless key&.match?(/\A\h{8}-\h{4}-\h{4}-\h{4}-\h{12}\z/)
         raise 'Invalid TOPS Client ID. Expected a GUID.'
       end
 
@@ -21,7 +21,7 @@ module TopsConnect
     end
 
     def software_key=(key)
-      unless key.match?(/\A\h{8}-\h{4}-\h{4}-\h{4}-\h{12}\z/)
+      unless key&.match?(/\A\h{8}-\h{4}-\h{4}-\h{4}-\h{12}\z/)
         raise 'Invalid TOPS Software Key. Expected a GUID.'
       end
 
