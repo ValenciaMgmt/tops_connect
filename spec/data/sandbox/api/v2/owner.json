@@ -1,0 +1,3388 @@
+[
+  {
+    "AlternateName": "",
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 11,
+          "Name": "Property"
+        },
+        "AddressLine1": "103 Country Villas Drive",
+        "AddressLine2": "",
+        "AddressLine3": null,
+        "City": "Safety Harbor",
+        "State": "FL",
+        "Zip": "34695",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [
+      {
+        "Key": 2,
+        "Type": {
+          "Key": 2,
+          "Name": "Home"
+        },
+        "IsPrimary": false,
+        "PhoneNumber": "727-555-4587",
+        "IsUnlisted": false
+      }
+    ],
+    "CommunityKey": 6,
+    "FirstName": null,
+    "LastName": "HALL",
+    "LegalName": "Rose Hall",
+    "MoveOutDate": null,
+    "Key": 1,
+    "PropertyKey": 1,
+    "ResidentType": "Owner",
+    "SettlementDate": null,
+    "CollectionTableKey": null,
+    "Links": [
+      {
+        "rel": "parent",
+        "href": "property/1"
+      },
+      {
+        "rel": "self",
+        "href": "owner/1"
+      },
+      {
+        "rel": "child",
+        "href": "owner/1/balance"
+      },
+      {
+        "rel": "child",
+        "href": "charge/1"
+      },
+      {
+        "rel": "child",
+        "href": "email?ContactType=Owner&ContactKey=1"
+      }
+    ],
+    "Metadata": {
+      "ModifiedDate": "2015-05-27T11:38:19",
+      "HoldPayment": false,
+      "HoldCollection": false,
+      "TopsId": "000001H001"
+    }
+  },
+  {
+    "AlternateName": "",
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 11,
+          "Name": "Property"
+        },
+        "AddressLine1": "105 Country Villas Drive",
+        "AddressLine2": "",
+        "AddressLine3": null,
+        "City": "Safety Harbor",
+        "State": "FL",
+        "Zip": "34695",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [],
+    "CommunityKey": 6,
+    "FirstName": null,
+    "LastName": "HERRERA",
+    "LegalName": "Patsy Herrera",
+    "MoveOutDate": null,
+    "Key": 2,
+    "PropertyKey": 2,
+    "ResidentType": "Owner",
+    "SettlementDate": null,
+    "CollectionTableKey": null,
+    "Links": [
+      {
+        "rel": "parent",
+        "href": "property/2"
+      },
+      {
+        "rel": "self",
+        "href": "owner/2"
+      },
+      {
+        "rel": "child",
+        "href": "owner/2/balance"
+      },
+      {
+        "rel": "child",
+        "href": "charge/2"
+      },
+      {
+        "rel": "child",
+        "href": "email?ContactType=Owner&ContactKey=2"
+      }
+    ],
+    "Metadata": {
+      "ModifiedDate": "2015-05-27T11:38:19",
+      "HoldPayment": false,
+      "HoldCollection": false,
+      "TopsId": "000002H001"
+    }
+  },
+  {
+    "AlternateName": "",
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 11,
+          "Name": "Property"
+        },
+        "AddressLine1": "107 Country Villas Drive",
+        "AddressLine2": "",
+        "AddressLine3": null,
+        "City": "Safety Harbor",
+        "State": "FL",
+        "Zip": "34695",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [],
+    "CommunityKey": 6,
+    "FirstName": null,
+    "LastName": "ARMSTRONG",
+    "LegalName": "Terrence Armstrong",
+    "MoveOutDate": null,
+    "Key": 3,
+    "PropertyKey": 3,
+    "ResidentType": "Owner",
+    "SettlementDate": null,
+    "CollectionTableKey": null,
+    "Links": [
+      {
+        "rel": "parent",
+        "href": "property/3"
+      },
+      {
+        "rel": "self",
+        "href": "owner/3"
+      },
+      {
+        "rel": "child",
+        "href": "owner/3/balance"
+      },
+      {
+        "rel": "child",
+        "href": "charge/3"
+      },
+      {
+        "rel": "child",
+        "href": "email?ContactType=Owner&ContactKey=3"
+      }
+    ],
+    "Metadata": {
+      "ModifiedDate": "2015-05-27T11:38:19",
+      "HoldPayment": false,
+      "HoldCollection": false,
+      "TopsId": "000003H001"
+    }
+  },
+  {
+    "AlternateName": "",
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 11,
+          "Name": "Property"
+        },
+        "AddressLine1": "109 Country Villas Drive",
+        "AddressLine2": "",
+        "AddressLine3": null,
+        "City": "Safety Harbor",
+        "State": "FL",
+        "Zip": "34695",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [],
+    "CommunityKey": 6,
+    "FirstName": null,
+    "LastName": "GARCIA",
+    "LegalName": "Irving Garcia",
+    "MoveOutDate": null,
+    "Key": 4,
+    "PropertyKey": 4,
+    "ResidentType": "Owner",
+    "SettlementDate": null,
+    "CollectionTableKey": null,
+    "Links": [
+      {
+        "rel": "parent",
+        "href": "property/4"
+      },
+      {
+        "rel": "self",
+        "href": "owner/4"
+      },
+      {
+        "rel": "child",
+        "href": "owner/4/balance"
+      },
+      {
+        "rel": "child",
+        "href": "charge/4"
+      },
+      {
+        "rel": "child",
+        "href": "email?ContactType=Owner&ContactKey=4"
+      }
+    ],
+    "Metadata": {
+      "ModifiedDate": "2015-05-27T11:38:19",
+      "HoldPayment": false,
+      "HoldCollection": false,
+      "TopsId": "000004H001"
+    }
+  },
+  {
+    "AlternateName": "",
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 11,
+          "Name": "Property"
+        },
+        "AddressLine1": "111 Country Villas Drive",
+        "AddressLine2": "",
+        "AddressLine3": null,
+        "City": "Safety Harbor",
+        "State": "FL",
+        "Zip": "34695",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [],
+    "CommunityKey": 6,
+    "FirstName": null,
+    "LastName": "GARRETT",
+    "LegalName": "Christian & Anna Garrett",
+    "MoveOutDate": null,
+    "Key": 5,
+    "PropertyKey": 5,
+    "ResidentType": "Owner",
+    "SettlementDate": null,
+    "CollectionTableKey": null,
+    "Links": [
+      {
+        "rel": "parent",
+        "href": "property/5"
+      },
+      {
+        "rel": "self",
+        "href": "owner/5"
+      },
+      {
+        "rel": "child",
+        "href": "owner/5/balance"
+      },
+      {
+        "rel": "child",
+        "href": "charge/5"
+      },
+      {
+        "rel": "child",
+        "href": "email?ContactType=Owner&ContactKey=5"
+      }
+    ],
+    "Metadata": {
+      "ModifiedDate": "2015-05-27T11:38:19",
+      "HoldPayment": false,
+      "HoldCollection": false,
+      "TopsId": "000005H001"
+    }
+  },
+  {
+    "AlternateName": "",
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 11,
+          "Name": "Property"
+        },
+        "AddressLine1": "113 Country Villas Drive",
+        "AddressLine2": "",
+        "AddressLine3": null,
+        "City": "Safety Harbor",
+        "State": "FL",
+        "Zip": "34695",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [],
+    "CommunityKey": 6,
+    "FirstName": null,
+    "LastName": "PENA",
+    "LegalName": "Ida Pena",
+    "MoveOutDate": null,
+    "Key": 6,
+    "PropertyKey": 6,
+    "ResidentType": "Owner",
+    "SettlementDate": null,
+    "CollectionTableKey": null,
+    "Links": [
+      {
+        "rel": "parent",
+        "href": "property/6"
+      },
+      {
+        "rel": "self",
+        "href": "owner/6"
+      },
+      {
+        "rel": "child",
+        "href": "owner/6/balance"
+      },
+      {
+        "rel": "child",
+        "href": "charge/6"
+      },
+      {
+        "rel": "child",
+        "href": "email?ContactType=Owner&ContactKey=6"
+      }
+    ],
+    "Metadata": {
+      "ModifiedDate": "2015-05-27T11:38:19",
+      "HoldPayment": false,
+      "HoldCollection": false,
+      "TopsId": "000006H001"
+    }
+  },
+  {
+    "AlternateName": "",
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 11,
+          "Name": "Property"
+        },
+        "AddressLine1": "115 Country Villas Drive",
+        "AddressLine2": "",
+        "AddressLine3": null,
+        "City": "Safety Harbor",
+        "State": "FL",
+        "Zip": "34695",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [],
+    "CommunityKey": 6,
+    "FirstName": null,
+    "LastName": "BARTON",
+    "LegalName": "Marguerite Barton",
+    "MoveOutDate": null,
+    "Key": 7,
+    "PropertyKey": 7,
+    "ResidentType": "Owner",
+    "SettlementDate": null,
+    "CollectionTableKey": null,
+    "Links": [
+      {
+        "rel": "parent",
+        "href": "property/7"
+      },
+      {
+        "rel": "self",
+        "href": "owner/7"
+      },
+      {
+        "rel": "child",
+        "href": "owner/7/balance"
+      },
+      {
+        "rel": "child",
+        "href": "charge/7"
+      },
+      {
+        "rel": "child",
+        "href": "email?ContactType=Owner&ContactKey=7"
+      }
+    ],
+    "Metadata": {
+      "ModifiedDate": "2015-05-27T11:38:19",
+      "HoldPayment": false,
+      "HoldCollection": false,
+      "TopsId": "000007H001"
+    }
+  },
+  {
+    "AlternateName": "",
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 11,
+          "Name": "Property"
+        },
+        "AddressLine1": "117 Country Villas Drive",
+        "AddressLine2": "",
+        "AddressLine3": null,
+        "City": "Safety Harbor",
+        "State": "FL",
+        "Zip": "34695",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [],
+    "CommunityKey": 6,
+    "FirstName": null,
+    "LastName": "WALKER",
+    "LegalName": "Mack & Betty Walker",
+    "MoveOutDate": null,
+    "Key": 8,
+    "PropertyKey": 8,
+    "ResidentType": "Owner",
+    "SettlementDate": null,
+    "CollectionTableKey": null,
+    "Links": [
+      {
+        "rel": "parent",
+        "href": "property/8"
+      },
+      {
+        "rel": "self",
+        "href": "owner/8"
+      },
+      {
+        "rel": "child",
+        "href": "owner/8/balance"
+      },
+      {
+        "rel": "child",
+        "href": "charge/8"
+      },
+      {
+        "rel": "child",
+        "href": "email?ContactType=Owner&ContactKey=8"
+      }
+    ],
+    "Metadata": {
+      "ModifiedDate": "2015-05-27T11:38:19",
+      "HoldPayment": false,
+      "HoldCollection": false,
+      "TopsId": "000008H001"
+    }
+  },
+  {
+    "AlternateName": "",
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 11,
+          "Name": "Property"
+        },
+        "AddressLine1": "119 Country Villas Drive",
+        "AddressLine2": "",
+        "AddressLine3": null,
+        "City": "Safety Harbor",
+        "State": "FL",
+        "Zip": "34695",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [],
+    "CommunityKey": 6,
+    "FirstName": null,
+    "LastName": "MILES",
+    "LegalName": "Clyde Miles",
+    "MoveOutDate": null,
+    "Key": 9,
+    "PropertyKey": 9,
+    "ResidentType": "Owner",
+    "SettlementDate": null,
+    "CollectionTableKey": null,
+    "Links": [
+      {
+        "rel": "parent",
+        "href": "property/9"
+      },
+      {
+        "rel": "self",
+        "href": "owner/9"
+      },
+      {
+        "rel": "child",
+        "href": "owner/9/balance"
+      },
+      {
+        "rel": "child",
+        "href": "charge/9"
+      },
+      {
+        "rel": "child",
+        "href": "email?ContactType=Owner&ContactKey=9"
+      }
+    ],
+    "Metadata": {
+      "ModifiedDate": "2015-05-27T11:38:19",
+      "HoldPayment": false,
+      "HoldCollection": false,
+      "TopsId": "000009H001"
+    }
+  },
+  {
+    "AlternateName": "",
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 11,
+          "Name": "Property"
+        },
+        "AddressLine1": "121 Country Villas Drive",
+        "AddressLine2": "",
+        "AddressLine3": null,
+        "City": "Safety Harbor",
+        "State": "FL",
+        "Zip": "34695",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [],
+    "CommunityKey": 6,
+    "FirstName": null,
+    "LastName": "GRIFFITH",
+    "LegalName": "Faith Griffith",
+    "MoveOutDate": null,
+    "Key": 10,
+    "PropertyKey": 10,
+    "ResidentType": "Owner",
+    "SettlementDate": null,
+    "CollectionTableKey": null,
+    "Links": [
+      {
+        "rel": "parent",
+        "href": "property/10"
+      },
+      {
+        "rel": "self",
+        "href": "owner/10"
+      },
+      {
+        "rel": "child",
+        "href": "owner/10/balance"
+      },
+      {
+        "rel": "child",
+        "href": "charge/10"
+      },
+      {
+        "rel": "child",
+        "href": "email?ContactType=Owner&ContactKey=10"
+      }
+    ],
+    "Metadata": {
+      "ModifiedDate": "2015-05-27T11:38:19",
+      "HoldPayment": false,
+      "HoldCollection": false,
+      "TopsId": "000010H001"
+    }
+  },
+  {
+    "AlternateName": "",
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 11,
+          "Name": "Property"
+        },
+        "AddressLine1": "123 Country Villas Drive",
+        "AddressLine2": "",
+        "AddressLine3": null,
+        "City": "Safety Harbor",
+        "State": "FL",
+        "Zip": "34695",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [],
+    "CommunityKey": 6,
+    "FirstName": null,
+    "LastName": "WILKINS",
+    "LegalName": "Samuel & Harriett Wilkins",
+    "MoveOutDate": null,
+    "Key": 11,
+    "PropertyKey": 11,
+    "ResidentType": "Owner",
+    "SettlementDate": null,
+    "CollectionTableKey": null,
+    "Links": [
+      {
+        "rel": "parent",
+        "href": "property/11"
+      },
+      {
+        "rel": "self",
+        "href": "owner/11"
+      },
+      {
+        "rel": "child",
+        "href": "owner/11/balance"
+      },
+      {
+        "rel": "child",
+        "href": "charge/11"
+      },
+      {
+        "rel": "child",
+        "href": "email?ContactType=Owner&ContactKey=11"
+      }
+    ],
+    "Metadata": {
+      "ModifiedDate": "2015-05-27T11:38:19",
+      "HoldPayment": false,
+      "HoldCollection": false,
+      "TopsId": "000011H001"
+    }
+  },
+  {
+    "AlternateName": "",
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 11,
+          "Name": "Property"
+        },
+        "AddressLine1": "125 Country Villas Drive",
+        "AddressLine2": "",
+        "AddressLine3": null,
+        "City": "Safety Harbor",
+        "State": "FL",
+        "Zip": "34695",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [],
+    "CommunityKey": 6,
+    "FirstName": null,
+    "LastName": "HARVEY",
+    "LegalName": "Yvette Harvey",
+    "MoveOutDate": null,
+    "Key": 12,
+    "PropertyKey": 12,
+    "ResidentType": "Owner",
+    "SettlementDate": null,
+    "CollectionTableKey": null,
+    "Links": [
+      {
+        "rel": "parent",
+        "href": "property/12"
+      },
+      {
+        "rel": "self",
+        "href": "owner/12"
+      },
+      {
+        "rel": "child",
+        "href": "owner/12/balance"
+      },
+      {
+        "rel": "child",
+        "href": "charge/12"
+      },
+      {
+        "rel": "child",
+        "href": "email?ContactType=Owner&ContactKey=12"
+      }
+    ],
+    "Metadata": {
+      "ModifiedDate": "2015-05-27T11:38:19",
+      "HoldPayment": false,
+      "HoldCollection": false,
+      "TopsId": "000012H001"
+    }
+  },
+  {
+    "AlternateName": "",
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 11,
+          "Name": "Property"
+        },
+        "AddressLine1": "101 Timber Circle",
+        "AddressLine2": "",
+        "AddressLine3": null,
+        "City": "Safety Harbor",
+        "State": "FL",
+        "Zip": "34695",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [],
+    "CommunityKey": 6,
+    "FirstName": null,
+    "LastName": "HANSON",
+    "LegalName": "Cecilia Hanson",
+    "MoveOutDate": null,
+    "Key": 13,
+    "PropertyKey": 13,
+    "ResidentType": "Owner",
+    "SettlementDate": null,
+    "CollectionTableKey": null,
+    "Links": [
+      {
+        "rel": "parent",
+        "href": "property/13"
+      },
+      {
+        "rel": "self",
+        "href": "owner/13"
+      },
+      {
+        "rel": "child",
+        "href": "owner/13/balance"
+      },
+      {
+        "rel": "child",
+        "href": "charge/13"
+      },
+      {
+        "rel": "child",
+        "href": "email?ContactType=Owner&ContactKey=13"
+      }
+    ],
+    "Metadata": {
+      "ModifiedDate": "2015-05-27T11:38:19",
+      "HoldPayment": false,
+      "HoldCollection": false,
+      "TopsId": "000013H001"
+    }
+  },
+  {
+    "AlternateName": "",
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 11,
+          "Name": "Property"
+        },
+        "AddressLine1": "103 Timber Circle",
+        "AddressLine2": "",
+        "AddressLine3": null,
+        "City": "Safety Harbor",
+        "State": "FL",
+        "Zip": "34695",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [],
+    "CommunityKey": 6,
+    "FirstName": null,
+    "LastName": "BARKER",
+    "LegalName": "Penny Barker",
+    "MoveOutDate": null,
+    "Key": 14,
+    "PropertyKey": 14,
+    "ResidentType": "Owner",
+    "SettlementDate": null,
+    "CollectionTableKey": null,
+    "Links": [
+      {
+        "rel": "parent",
+        "href": "property/14"
+      },
+      {
+        "rel": "self",
+        "href": "owner/14"
+      },
+      {
+        "rel": "child",
+        "href": "owner/14/balance"
+      },
+      {
+        "rel": "child",
+        "href": "charge/14"
+      },
+      {
+        "rel": "child",
+        "href": "email?ContactType=Owner&ContactKey=14"
+      }
+    ],
+    "Metadata": {
+      "ModifiedDate": "2015-05-27T11:38:19",
+      "HoldPayment": false,
+      "HoldCollection": false,
+      "TopsId": "000014H001"
+    }
+  },
+  {
+    "AlternateName": "",
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 11,
+          "Name": "Property"
+        },
+        "AddressLine1": "105 Timber Circle",
+        "AddressLine2": "",
+        "AddressLine3": null,
+        "City": "Safety Harbor",
+        "State": "FL",
+        "Zip": "34695",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [],
+    "CommunityKey": 6,
+    "FirstName": null,
+    "LastName": "CARPENTER",
+    "LegalName": "Dominick Carpenter",
+    "MoveOutDate": null,
+    "Key": 15,
+    "PropertyKey": 15,
+    "ResidentType": "Owner",
+    "SettlementDate": null,
+    "CollectionTableKey": null,
+    "Links": [
+      {
+        "rel": "parent",
+        "href": "property/15"
+      },
+      {
+        "rel": "self",
+        "href": "owner/15"
+      },
+      {
+        "rel": "child",
+        "href": "owner/15/balance"
+      },
+      {
+        "rel": "child",
+        "href": "charge/15"
+      },
+      {
+        "rel": "child",
+        "href": "email?ContactType=Owner&ContactKey=15"
+      }
+    ],
+    "Metadata": {
+      "ModifiedDate": "2015-05-27T11:38:19",
+      "HoldPayment": false,
+      "HoldCollection": false,
+      "TopsId": "000015H001"
+    }
+  },
+  {
+    "AlternateName": "",
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 11,
+          "Name": "Property"
+        },
+        "AddressLine1": "107 Timber Circle",
+        "AddressLine2": "",
+        "AddressLine3": null,
+        "City": "Safety Harbor",
+        "State": "FL",
+        "Zip": "34695",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [],
+    "CommunityKey": 6,
+    "FirstName": null,
+    "LastName": "MENDEZ",
+    "LegalName": "Omar & Sheila Mendez",
+    "MoveOutDate": null,
+    "Key": 16,
+    "PropertyKey": 16,
+    "ResidentType": "Owner",
+    "SettlementDate": null,
+    "CollectionTableKey": null,
+    "Links": [
+      {
+        "rel": "parent",
+        "href": "property/16"
+      },
+      {
+        "rel": "self",
+        "href": "owner/16"
+      },
+      {
+        "rel": "child",
+        "href": "owner/16/balance"
+      },
+      {
+        "rel": "child",
+        "href": "charge/16"
+      },
+      {
+        "rel": "child",
+        "href": "email?ContactType=Owner&ContactKey=16"
+      }
+    ],
+    "Metadata": {
+      "ModifiedDate": "2015-05-27T11:38:19",
+      "HoldPayment": false,
+      "HoldCollection": false,
+      "TopsId": "000016H001"
+    }
+  },
+  {
+    "AlternateName": "",
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 11,
+          "Name": "Property"
+        },
+        "AddressLine1": "109 Timber Circle",
+        "AddressLine2": "",
+        "AddressLine3": null,
+        "City": "Safety Harbor",
+        "State": "FL",
+        "Zip": "34695",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [],
+    "CommunityKey": 6,
+    "FirstName": null,
+    "LastName": "CARTER",
+    "LegalName": "Orlando Carter",
+    "MoveOutDate": null,
+    "Key": 17,
+    "PropertyKey": 17,
+    "ResidentType": "Owner",
+    "SettlementDate": null,
+    "CollectionTableKey": null,
+    "Links": [
+      {
+        "rel": "parent",
+        "href": "property/17"
+      },
+      {
+        "rel": "self",
+        "href": "owner/17"
+      },
+      {
+        "rel": "child",
+        "href": "owner/17/balance"
+      },
+      {
+        "rel": "child",
+        "href": "charge/17"
+      },
+      {
+        "rel": "child",
+        "href": "email?ContactType=Owner&ContactKey=17"
+      }
+    ],
+    "Metadata": {
+      "ModifiedDate": "2015-05-27T11:38:19",
+      "HoldPayment": false,
+      "HoldCollection": false,
+      "TopsId": "000017H001"
+    }
+  },
+  {
+    "AlternateName": "",
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 11,
+          "Name": "Property"
+        },
+        "AddressLine1": "111 Timber Circle",
+        "AddressLine2": "",
+        "AddressLine3": null,
+        "City": "Safety Harbor",
+        "State": "FL",
+        "Zip": "34695",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [],
+    "CommunityKey": 6,
+    "FirstName": null,
+    "LastName": "GILBERT",
+    "LegalName": "Kim Gilbert",
+    "MoveOutDate": null,
+    "Key": 18,
+    "PropertyKey": 18,
+    "ResidentType": "Owner",
+    "SettlementDate": null,
+    "CollectionTableKey": null,
+    "Links": [
+      {
+        "rel": "parent",
+        "href": "property/18"
+      },
+      {
+        "rel": "self",
+        "href": "owner/18"
+      },
+      {
+        "rel": "child",
+        "href": "owner/18/balance"
+      },
+      {
+        "rel": "child",
+        "href": "charge/18"
+      },
+      {
+        "rel": "child",
+        "href": "email?ContactType=Owner&ContactKey=18"
+      }
+    ],
+    "Metadata": {
+      "ModifiedDate": "2015-05-27T11:38:19",
+      "HoldPayment": false,
+      "HoldCollection": false,
+      "TopsId": "000018H001"
+    }
+  },
+  {
+    "AlternateName": "",
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 11,
+          "Name": "Property"
+        },
+        "AddressLine1": "113 Timber Circle",
+        "AddressLine2": "",
+        "AddressLine3": null,
+        "City": "Safety Harbor",
+        "State": "FL",
+        "Zip": "34695",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [],
+    "CommunityKey": 6,
+    "FirstName": null,
+    "LastName": "BROOKS",
+    "LegalName": "Leona Brooks",
+    "MoveOutDate": null,
+    "Key": 19,
+    "PropertyKey": 19,
+    "ResidentType": "Owner",
+    "SettlementDate": null,
+    "CollectionTableKey": null,
+    "Links": [
+      {
+        "rel": "parent",
+        "href": "property/19"
+      },
+      {
+        "rel": "self",
+        "href": "owner/19"
+      },
+      {
+        "rel": "child",
+        "href": "owner/19/balance"
+      },
+      {
+        "rel": "child",
+        "href": "charge/19"
+      },
+      {
+        "rel": "child",
+        "href": "email?ContactType=Owner&ContactKey=19"
+      }
+    ],
+    "Metadata": {
+      "ModifiedDate": "2015-05-27T11:38:19",
+      "HoldPayment": false,
+      "HoldCollection": false,
+      "TopsId": "000019H001"
+    }
+  },
+  {
+    "AlternateName": "",
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 11,
+          "Name": "Property"
+        },
+        "AddressLine1": "101 Forest Circle",
+        "AddressLine2": "",
+        "AddressLine3": null,
+        "City": "Safety Harbor",
+        "State": "FL",
+        "Zip": "34695",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [],
+    "CommunityKey": 6,
+    "FirstName": null,
+    "LastName": "BARNES",
+    "LegalName": "Charlene Barnes",
+    "MoveOutDate": null,
+    "Key": 20,
+    "PropertyKey": 20,
+    "ResidentType": "Owner",
+    "SettlementDate": null,
+    "CollectionTableKey": null,
+    "Links": [
+      {
+        "rel": "parent",
+        "href": "property/20"
+      },
+      {
+        "rel": "self",
+        "href": "owner/20"
+      },
+      {
+        "rel": "child",
+        "href": "owner/20/balance"
+      },
+      {
+        "rel": "child",
+        "href": "charge/20"
+      },
+      {
+        "rel": "child",
+        "href": "email?ContactType=Owner&ContactKey=20"
+      }
+    ],
+    "Metadata": {
+      "ModifiedDate": "2015-05-27T11:38:19",
+      "HoldPayment": false,
+      "HoldCollection": false,
+      "TopsId": "000020H001"
+    }
+  },
+  {
+    "AlternateName": "",
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 11,
+          "Name": "Property"
+        },
+        "AddressLine1": "102 Forest Circle",
+        "AddressLine2": "",
+        "AddressLine3": null,
+        "City": "Safety Harbor",
+        "State": "FL",
+        "Zip": "34695",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [],
+    "CommunityKey": 6,
+    "FirstName": null,
+    "LastName": "TUCKER",
+    "LegalName": "Corey & Pamela Tucker",
+    "MoveOutDate": null,
+    "Key": 21,
+    "PropertyKey": 21,
+    "ResidentType": "Owner",
+    "SettlementDate": null,
+    "CollectionTableKey": null,
+    "Links": [
+      {
+        "rel": "parent",
+        "href": "property/21"
+      },
+      {
+        "rel": "self",
+        "href": "owner/21"
+      },
+      {
+        "rel": "child",
+        "href": "owner/21/balance"
+      },
+      {
+        "rel": "child",
+        "href": "charge/21"
+      },
+      {
+        "rel": "child",
+        "href": "email?ContactType=Owner&ContactKey=21"
+      }
+    ],
+    "Metadata": {
+      "ModifiedDate": "2015-05-27T11:38:19",
+      "HoldPayment": false,
+      "HoldCollection": false,
+      "TopsId": "000021H001"
+    }
+  },
+  {
+    "AlternateName": "",
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 11,
+          "Name": "Property"
+        },
+        "AddressLine1": "103 Forest Circle",
+        "AddressLine2": "",
+        "AddressLine3": null,
+        "City": "Safety Harbor",
+        "State": "FL",
+        "Zip": "34695",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [],
+    "CommunityKey": 6,
+    "FirstName": null,
+    "LastName": "ELLIOTT",
+    "LegalName": "Juana Elliott",
+    "MoveOutDate": null,
+    "Key": 22,
+    "PropertyKey": 22,
+    "ResidentType": "Owner",
+    "SettlementDate": null,
+    "CollectionTableKey": null,
+    "Links": [
+      {
+        "rel": "parent",
+        "href": "property/22"
+      },
+      {
+        "rel": "self",
+        "href": "owner/22"
+      },
+      {
+        "rel": "child",
+        "href": "owner/22/balance"
+      },
+      {
+        "rel": "child",
+        "href": "charge/22"
+      },
+      {
+        "rel": "child",
+        "href": "email?ContactType=Owner&ContactKey=22"
+      }
+    ],
+    "Metadata": {
+      "ModifiedDate": "2015-05-27T11:38:19",
+      "HoldPayment": false,
+      "HoldCollection": false,
+      "TopsId": "000022H001"
+    }
+  },
+  {
+    "AlternateName": "",
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 11,
+          "Name": "Property"
+        },
+        "AddressLine1": "104 Forest Circle",
+        "AddressLine2": "",
+        "AddressLine3": null,
+        "City": "Safety Harbor",
+        "State": "FL",
+        "Zip": "34695",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [],
+    "CommunityKey": 6,
+    "FirstName": null,
+    "LastName": "ADAMS",
+    "LegalName": "Armando & Albert Adams",
+    "MoveOutDate": null,
+    "Key": 23,
+    "PropertyKey": 23,
+    "ResidentType": "Owner",
+    "SettlementDate": null,
+    "CollectionTableKey": null,
+    "Links": [
+      {
+        "rel": "parent",
+        "href": "property/23"
+      },
+      {
+        "rel": "self",
+        "href": "owner/23"
+      },
+      {
+        "rel": "child",
+        "href": "owner/23/balance"
+      },
+      {
+        "rel": "child",
+        "href": "charge/23"
+      },
+      {
+        "rel": "child",
+        "href": "email?ContactType=Owner&ContactKey=23"
+      }
+    ],
+    "Metadata": {
+      "ModifiedDate": "2015-05-27T11:38:19",
+      "HoldPayment": false,
+      "HoldCollection": false,
+      "TopsId": "000023H001"
+    }
+  },
+  {
+    "AlternateName": "",
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 11,
+          "Name": "Property"
+        },
+        "AddressLine1": "105 Forest Circle",
+        "AddressLine2": "",
+        "AddressLine3": null,
+        "City": "Safety Harbor",
+        "State": "FL",
+        "Zip": "34695",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [],
+    "CommunityKey": 6,
+    "FirstName": null,
+    "LastName": "GRIFFITH",
+    "LegalName": "Alexis Griffith",
+    "MoveOutDate": null,
+    "Key": 24,
+    "PropertyKey": 24,
+    "ResidentType": "Owner",
+    "SettlementDate": null,
+    "CollectionTableKey": null,
+    "Links": [
+      {
+        "rel": "parent",
+        "href": "property/24"
+      },
+      {
+        "rel": "self",
+        "href": "owner/24"
+      },
+      {
+        "rel": "child",
+        "href": "owner/24/balance"
+      },
+      {
+        "rel": "child",
+        "href": "charge/24"
+      },
+      {
+        "rel": "child",
+        "href": "email?ContactType=Owner&ContactKey=24"
+      }
+    ],
+    "Metadata": {
+      "ModifiedDate": "2015-05-27T11:38:19",
+      "HoldPayment": false,
+      "HoldCollection": false,
+      "TopsId": "000024H001"
+    }
+  },
+  {
+    "AlternateName": "",
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 11,
+          "Name": "Property"
+        },
+        "AddressLine1": "106 Forest Circle",
+        "AddressLine2": "",
+        "AddressLine3": null,
+        "City": "Safety Harbor",
+        "State": "FL",
+        "Zip": "34695",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [],
+    "CommunityKey": 6,
+    "FirstName": null,
+    "LastName": "LAWSON",
+    "LegalName": "Lucy Lawson",
+    "MoveOutDate": null,
+    "Key": 25,
+    "PropertyKey": 25,
+    "ResidentType": "Owner",
+    "SettlementDate": null,
+    "CollectionTableKey": null,
+    "Links": [
+      {
+        "rel": "parent",
+        "href": "property/25"
+      },
+      {
+        "rel": "self",
+        "href": "owner/25"
+      },
+      {
+        "rel": "child",
+        "href": "owner/25/balance"
+      },
+      {
+        "rel": "child",
+        "href": "charge/25"
+      },
+      {
+        "rel": "child",
+        "href": "email?ContactType=Owner&ContactKey=25"
+      }
+    ],
+    "Metadata": {
+      "ModifiedDate": "2015-05-27T11:38:19",
+      "HoldPayment": false,
+      "HoldCollection": false,
+      "TopsId": "000025H001"
+    }
+  },
+  {
+    "AlternateName": "",
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 11,
+          "Name": "Property"
+        },
+        "AddressLine1": "107 Forest Circle",
+        "AddressLine2": "",
+        "AddressLine3": null,
+        "City": "Safety Harbor",
+        "State": "FL",
+        "Zip": "34695",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [],
+    "CommunityKey": 6,
+    "FirstName": null,
+    "LastName": "COLLIER",
+    "LegalName": "Sherri Collier",
+    "MoveOutDate": null,
+    "Key": 26,
+    "PropertyKey": 26,
+    "ResidentType": "Owner",
+    "SettlementDate": null,
+    "CollectionTableKey": null,
+    "Links": [
+      {
+        "rel": "parent",
+        "href": "property/26"
+      },
+      {
+        "rel": "self",
+        "href": "owner/26"
+      },
+      {
+        "rel": "child",
+        "href": "owner/26/balance"
+      },
+      {
+        "rel": "child",
+        "href": "charge/26"
+      },
+      {
+        "rel": "child",
+        "href": "email?ContactType=Owner&ContactKey=26"
+      }
+    ],
+    "Metadata": {
+      "ModifiedDate": "2015-05-27T11:38:19",
+      "HoldPayment": false,
+      "HoldCollection": false,
+      "TopsId": "000026H001"
+    }
+  },
+  {
+    "AlternateName": "",
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 11,
+          "Name": "Property"
+        },
+        "AddressLine1": "108 Forest Circle",
+        "AddressLine2": "",
+        "AddressLine3": null,
+        "City": "Safety Harbor",
+        "State": "FL",
+        "Zip": "34695",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [],
+    "CommunityKey": 6,
+    "FirstName": null,
+    "LastName": "WELCH",
+    "LegalName": "Steven & Arlene Welch",
+    "MoveOutDate": null,
+    "Key": 27,
+    "PropertyKey": 27,
+    "ResidentType": "Owner",
+    "SettlementDate": null,
+    "CollectionTableKey": null,
+    "Links": [
+      {
+        "rel": "parent",
+        "href": "property/27"
+      },
+      {
+        "rel": "self",
+        "href": "owner/27"
+      },
+      {
+        "rel": "child",
+        "href": "owner/27/balance"
+      },
+      {
+        "rel": "child",
+        "href": "charge/27"
+      },
+      {
+        "rel": "child",
+        "href": "email?ContactType=Owner&ContactKey=27"
+      }
+    ],
+    "Metadata": {
+      "ModifiedDate": "2015-05-27T11:38:19",
+      "HoldPayment": false,
+      "HoldCollection": false,
+      "TopsId": "000027H001"
+    }
+  },
+  {
+    "AlternateName": "",
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 11,
+          "Name": "Property"
+        },
+        "AddressLine1": "109 Forest Circle",
+        "AddressLine2": "",
+        "AddressLine3": null,
+        "City": "Safety Harbor",
+        "State": "FL",
+        "Zip": "34695",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [],
+    "CommunityKey": 6,
+    "FirstName": null,
+    "LastName": "GILBERT",
+    "LegalName": "Julius Gilbert",
+    "MoveOutDate": null,
+    "Key": 28,
+    "PropertyKey": 28,
+    "ResidentType": "Owner",
+    "SettlementDate": null,
+    "CollectionTableKey": null,
+    "Links": [
+      {
+        "rel": "parent",
+        "href": "property/28"
+      },
+      {
+        "rel": "self",
+        "href": "owner/28"
+      },
+      {
+        "rel": "child",
+        "href": "owner/28/balance"
+      },
+      {
+        "rel": "child",
+        "href": "charge/28"
+      },
+      {
+        "rel": "child",
+        "href": "email?ContactType=Owner&ContactKey=28"
+      }
+    ],
+    "Metadata": {
+      "ModifiedDate": "2015-05-27T11:38:19",
+      "HoldPayment": false,
+      "HoldCollection": false,
+      "TopsId": "000028H001"
+    }
+  },
+  {
+    "AlternateName": "",
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 11,
+          "Name": "Property"
+        },
+        "AddressLine1": "110 Forest Circle",
+        "AddressLine2": "",
+        "AddressLine3": null,
+        "City": "Safety Harbor",
+        "State": "FL",
+        "Zip": "34695",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [],
+    "CommunityKey": 6,
+    "FirstName": null,
+    "LastName": "GUTIERREZ",
+    "LegalName": "Troy & Miranda Gutierrez",
+    "MoveOutDate": null,
+    "Key": 29,
+    "PropertyKey": 29,
+    "ResidentType": "Owner",
+    "SettlementDate": null,
+    "CollectionTableKey": null,
+    "Links": [
+      {
+        "rel": "parent",
+        "href": "property/29"
+      },
+      {
+        "rel": "self",
+        "href": "owner/29"
+      },
+      {
+        "rel": "child",
+        "href": "owner/29/balance"
+      },
+      {
+        "rel": "child",
+        "href": "charge/29"
+      },
+      {
+        "rel": "child",
+        "href": "email?ContactType=Owner&ContactKey=29"
+      }
+    ],
+    "Metadata": {
+      "ModifiedDate": "2015-05-27T11:38:19",
+      "HoldPayment": false,
+      "HoldCollection": false,
+      "TopsId": "000029H001"
+    }
+  },
+  {
+    "AlternateName": "",
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 11,
+          "Name": "Property"
+        },
+        "AddressLine1": "111 Forest Circle",
+        "AddressLine2": "",
+        "AddressLine3": null,
+        "City": "Safety Harbor",
+        "State": "FL",
+        "Zip": "34695",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [],
+    "CommunityKey": 6,
+    "FirstName": null,
+    "LastName": "GARDNER",
+    "LegalName": "Francis Gardner",
+    "MoveOutDate": null,
+    "Key": 30,
+    "PropertyKey": 30,
+    "ResidentType": "Owner",
+    "SettlementDate": null,
+    "CollectionTableKey": null,
+    "Links": [
+      {
+        "rel": "parent",
+        "href": "property/30"
+      },
+      {
+        "rel": "self",
+        "href": "owner/30"
+      },
+      {
+        "rel": "child",
+        "href": "owner/30/balance"
+      },
+      {
+        "rel": "child",
+        "href": "charge/30"
+      },
+      {
+        "rel": "child",
+        "href": "email?ContactType=Owner&ContactKey=30"
+      }
+    ],
+    "Metadata": {
+      "ModifiedDate": "2015-05-27T11:38:19",
+      "HoldPayment": false,
+      "HoldCollection": false,
+      "TopsId": "000030H001"
+    }
+  },
+  {
+    "AlternateName": "",
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 11,
+          "Name": "Property"
+        },
+        "AddressLine1": "112 Forest Circle",
+        "AddressLine2": "",
+        "AddressLine3": null,
+        "City": "Safety Harbor",
+        "State": "FL",
+        "Zip": "34695",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [],
+    "CommunityKey": 6,
+    "FirstName": null,
+    "LastName": "PATTON",
+    "LegalName": "Garrett & Phyllis Patton",
+    "MoveOutDate": null,
+    "Key": 31,
+    "PropertyKey": 31,
+    "ResidentType": "Owner",
+    "SettlementDate": null,
+    "CollectionTableKey": null,
+    "Links": [
+      {
+        "rel": "parent",
+        "href": "property/31"
+      },
+      {
+        "rel": "self",
+        "href": "owner/31"
+      },
+      {
+        "rel": "child",
+        "href": "owner/31/balance"
+      },
+      {
+        "rel": "child",
+        "href": "charge/31"
+      },
+      {
+        "rel": "child",
+        "href": "email?ContactType=Owner&ContactKey=31"
+      }
+    ],
+    "Metadata": {
+      "ModifiedDate": "2015-05-27T11:38:19",
+      "HoldPayment": false,
+      "HoldCollection": false,
+      "TopsId": "000031H001"
+    }
+  },
+  {
+    "AlternateName": "",
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 11,
+          "Name": "Property"
+        },
+        "AddressLine1": "113 Forest Circle",
+        "AddressLine2": "",
+        "AddressLine3": null,
+        "City": "Safety Harbor",
+        "State": "FL",
+        "Zip": "34695",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [],
+    "CommunityKey": 6,
+    "FirstName": null,
+    "LastName": "CLARK",
+    "LegalName": "Teresa Clark",
+    "MoveOutDate": null,
+    "Key": 32,
+    "PropertyKey": 32,
+    "ResidentType": "Owner",
+    "SettlementDate": null,
+    "CollectionTableKey": null,
+    "Links": [
+      {
+        "rel": "parent",
+        "href": "property/32"
+      },
+      {
+        "rel": "self",
+        "href": "owner/32"
+      },
+      {
+        "rel": "child",
+        "href": "owner/32/balance"
+      },
+      {
+        "rel": "child",
+        "href": "charge/32"
+      },
+      {
+        "rel": "child",
+        "href": "email?ContactType=Owner&ContactKey=32"
+      }
+    ],
+    "Metadata": {
+      "ModifiedDate": "2015-05-27T11:38:19",
+      "HoldPayment": false,
+      "HoldCollection": false,
+      "TopsId": "000032H001"
+    }
+  },
+  {
+    "AlternateName": "",
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 11,
+          "Name": "Property"
+        },
+        "AddressLine1": "101 Peacock Circle",
+        "AddressLine2": "",
+        "AddressLine3": null,
+        "City": "Safety Harbor",
+        "State": "FL",
+        "Zip": "34695",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [],
+    "CommunityKey": 6,
+    "FirstName": null,
+    "LastName": "ORTIZ",
+    "LegalName": "Darrin Ortiz",
+    "MoveOutDate": null,
+    "Key": 33,
+    "PropertyKey": 33,
+    "ResidentType": "Owner",
+    "SettlementDate": null,
+    "CollectionTableKey": null,
+    "Links": [
+      {
+        "rel": "parent",
+        "href": "property/33"
+      },
+      {
+        "rel": "self",
+        "href": "owner/33"
+      },
+      {
+        "rel": "child",
+        "href": "owner/33/balance"
+      },
+      {
+        "rel": "child",
+        "href": "charge/33"
+      },
+      {
+        "rel": "child",
+        "href": "email?ContactType=Owner&ContactKey=33"
+      }
+    ],
+    "Metadata": {
+      "ModifiedDate": "2015-05-27T11:38:19",
+      "HoldPayment": false,
+      "HoldCollection": false,
+      "TopsId": "000033H001"
+    }
+  },
+  {
+    "AlternateName": "",
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 11,
+          "Name": "Property"
+        },
+        "AddressLine1": "102 Peacock Circle",
+        "AddressLine2": "",
+        "AddressLine3": null,
+        "City": "Safety Harbor",
+        "State": "FL",
+        "Zip": "34695",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [],
+    "CommunityKey": 6,
+    "FirstName": null,
+    "LastName": "ROSE",
+    "LegalName": "David & Dorothy Rose",
+    "MoveOutDate": null,
+    "Key": 34,
+    "PropertyKey": 34,
+    "ResidentType": "Owner",
+    "SettlementDate": null,
+    "CollectionTableKey": null,
+    "Links": [
+      {
+        "rel": "parent",
+        "href": "property/34"
+      },
+      {
+        "rel": "self",
+        "href": "owner/34"
+      },
+      {
+        "rel": "child",
+        "href": "owner/34/balance"
+      },
+      {
+        "rel": "child",
+        "href": "charge/34"
+      },
+      {
+        "rel": "child",
+        "href": "email?ContactType=Owner&ContactKey=34"
+      }
+    ],
+    "Metadata": {
+      "ModifiedDate": "2015-05-27T11:38:19",
+      "HoldPayment": false,
+      "HoldCollection": false,
+      "TopsId": "000034H001"
+    }
+  },
+  {
+    "AlternateName": "",
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 11,
+          "Name": "Property"
+        },
+        "AddressLine1": "103 Peacock Circle",
+        "AddressLine2": "",
+        "AddressLine3": null,
+        "City": "Safety Harbor",
+        "State": "FL",
+        "Zip": "34695",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [],
+    "CommunityKey": 6,
+    "FirstName": null,
+    "LastName": "HARRINGTON",
+    "LegalName": "Leo Harrington",
+    "MoveOutDate": null,
+    "Key": 35,
+    "PropertyKey": 35,
+    "ResidentType": "Owner",
+    "SettlementDate": null,
+    "CollectionTableKey": null,
+    "Links": [
+      {
+        "rel": "parent",
+        "href": "property/35"
+      },
+      {
+        "rel": "self",
+        "href": "owner/35"
+      },
+      {
+        "rel": "child",
+        "href": "owner/35/balance"
+      },
+      {
+        "rel": "child",
+        "href": "charge/35"
+      },
+      {
+        "rel": "child",
+        "href": "email?ContactType=Owner&ContactKey=35"
+      }
+    ],
+    "Metadata": {
+      "ModifiedDate": "2015-05-27T11:38:19",
+      "HoldPayment": false,
+      "HoldCollection": false,
+      "TopsId": "000035H001"
+    }
+  },
+  {
+    "AlternateName": "",
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 11,
+          "Name": "Property"
+        },
+        "AddressLine1": "104 Peacock Circle",
+        "AddressLine2": "",
+        "AddressLine3": null,
+        "City": "Safety Harbor",
+        "State": "FL",
+        "Zip": "34695",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [],
+    "CommunityKey": 6,
+    "FirstName": null,
+    "LastName": "RAY",
+    "LegalName": "Winnifred Ray",
+    "MoveOutDate": null,
+    "Key": 36,
+    "PropertyKey": 36,
+    "ResidentType": "Owner",
+    "SettlementDate": null,
+    "CollectionTableKey": null,
+    "Links": [
+      {
+        "rel": "parent",
+        "href": "property/36"
+      },
+      {
+        "rel": "self",
+        "href": "owner/36"
+      },
+      {
+        "rel": "child",
+        "href": "owner/36/balance"
+      },
+      {
+        "rel": "child",
+        "href": "charge/36"
+      },
+      {
+        "rel": "child",
+        "href": "email?ContactType=Owner&ContactKey=36"
+      }
+    ],
+    "Metadata": {
+      "ModifiedDate": "2015-05-27T11:38:19",
+      "HoldPayment": false,
+      "HoldCollection": false,
+      "TopsId": "000036H001"
+    }
+  },
+  {
+    "AlternateName": "",
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 11,
+          "Name": "Property"
+        },
+        "AddressLine1": "105 Peacock Circle",
+        "AddressLine2": "",
+        "AddressLine3": null,
+        "City": "Safety Harbor",
+        "State": "FL",
+        "Zip": "34695",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [],
+    "CommunityKey": 6,
+    "FirstName": null,
+    "LastName": "SCHNEIDER",
+    "LegalName": "Maggie Schneider",
+    "MoveOutDate": null,
+    "Key": 37,
+    "PropertyKey": 37,
+    "ResidentType": "Owner",
+    "SettlementDate": null,
+    "CollectionTableKey": null,
+    "Links": [
+      {
+        "rel": "parent",
+        "href": "property/37"
+      },
+      {
+        "rel": "self",
+        "href": "owner/37"
+      },
+      {
+        "rel": "child",
+        "href": "owner/37/balance"
+      },
+      {
+        "rel": "child",
+        "href": "charge/37"
+      },
+      {
+        "rel": "child",
+        "href": "email?ContactType=Owner&ContactKey=37"
+      }
+    ],
+    "Metadata": {
+      "ModifiedDate": "2015-05-27T11:38:19",
+      "HoldPayment": false,
+      "HoldCollection": false,
+      "TopsId": "000037H001"
+    }
+  },
+  {
+    "AlternateName": "",
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 11,
+          "Name": "Property"
+        },
+        "AddressLine1": "106 Peacock Circle",
+        "AddressLine2": "",
+        "AddressLine3": null,
+        "City": "Safety Harbor",
+        "State": "FL",
+        "Zip": "34695",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [],
+    "CommunityKey": 6,
+    "FirstName": null,
+    "LastName": "BOYD",
+    "LegalName": "Trevor & Jane Boyd",
+    "MoveOutDate": null,
+    "Key": 38,
+    "PropertyKey": 38,
+    "ResidentType": "Owner",
+    "SettlementDate": null,
+    "CollectionTableKey": null,
+    "Links": [
+      {
+        "rel": "parent",
+        "href": "property/38"
+      },
+      {
+        "rel": "self",
+        "href": "owner/38"
+      },
+      {
+        "rel": "child",
+        "href": "owner/38/balance"
+      },
+      {
+        "rel": "child",
+        "href": "charge/38"
+      },
+      {
+        "rel": "child",
+        "href": "email?ContactType=Owner&ContactKey=38"
+      }
+    ],
+    "Metadata": {
+      "ModifiedDate": "2015-05-27T11:38:19",
+      "HoldPayment": false,
+      "HoldCollection": false,
+      "TopsId": "000038H001"
+    }
+  },
+  {
+    "AlternateName": "",
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 11,
+          "Name": "Property"
+        },
+        "AddressLine1": "107 Peacock Circle",
+        "AddressLine2": "",
+        "AddressLine3": null,
+        "City": "Safety Harbor",
+        "State": "FL",
+        "Zip": "34695",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [],
+    "CommunityKey": 6,
+    "FirstName": null,
+    "LastName": "SANDERS",
+    "LegalName": "Melody Sanders",
+    "MoveOutDate": null,
+    "Key": 39,
+    "PropertyKey": 39,
+    "ResidentType": "Owner",
+    "SettlementDate": null,
+    "CollectionTableKey": null,
+    "Links": [
+      {
+        "rel": "parent",
+        "href": "property/39"
+      },
+      {
+        "rel": "self",
+        "href": "owner/39"
+      },
+      {
+        "rel": "child",
+        "href": "owner/39/balance"
+      },
+      {
+        "rel": "child",
+        "href": "charge/39"
+      },
+      {
+        "rel": "child",
+        "href": "email?ContactType=Owner&ContactKey=39"
+      }
+    ],
+    "Metadata": {
+      "ModifiedDate": "2015-05-27T11:38:19",
+      "HoldPayment": false,
+      "HoldCollection": false,
+      "TopsId": "000039H001"
+    }
+  },
+  {
+    "AlternateName": "",
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 11,
+          "Name": "Property"
+        },
+        "AddressLine1": "108 Peacock Circle",
+        "AddressLine2": "",
+        "AddressLine3": null,
+        "City": "Safety Harbor",
+        "State": "FL",
+        "Zip": "34695",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [],
+    "CommunityKey": 6,
+    "FirstName": null,
+    "LastName": "REESE",
+    "LegalName": "Elsie Reese",
+    "MoveOutDate": null,
+    "Key": 40,
+    "PropertyKey": 40,
+    "ResidentType": "Owner",
+    "SettlementDate": null,
+    "CollectionTableKey": null,
+    "Links": [
+      {
+        "rel": "parent",
+        "href": "property/40"
+      },
+      {
+        "rel": "self",
+        "href": "owner/40"
+      },
+      {
+        "rel": "child",
+        "href": "owner/40/balance"
+      },
+      {
+        "rel": "child",
+        "href": "charge/40"
+      },
+      {
+        "rel": "child",
+        "href": "email?ContactType=Owner&ContactKey=40"
+      }
+    ],
+    "Metadata": {
+      "ModifiedDate": "2015-05-27T11:38:19",
+      "HoldPayment": false,
+      "HoldCollection": false,
+      "TopsId": "000040H001"
+    }
+  },
+  {
+    "AlternateName": "",
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 11,
+          "Name": "Property"
+        },
+        "AddressLine1": "109 Peacock Circle",
+        "AddressLine2": "",
+        "AddressLine3": null,
+        "City": "Safety Harbor",
+        "State": "FL",
+        "Zip": "34695",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [],
+    "CommunityKey": 6,
+    "FirstName": null,
+    "LastName": "SMITH",
+    "LegalName": "Leonard Smith",
+    "MoveOutDate": null,
+    "Key": 41,
+    "PropertyKey": 41,
+    "ResidentType": "Owner",
+    "SettlementDate": null,
+    "CollectionTableKey": null,
+    "Links": [
+      {
+        "rel": "parent",
+        "href": "property/41"
+      },
+      {
+        "rel": "self",
+        "href": "owner/41"
+      },
+      {
+        "rel": "child",
+        "href": "owner/41/balance"
+      },
+      {
+        "rel": "child",
+        "href": "charge/41"
+      },
+      {
+        "rel": "child",
+        "href": "email?ContactType=Owner&ContactKey=41"
+      }
+    ],
+    "Metadata": {
+      "ModifiedDate": "2015-05-27T11:38:19",
+      "HoldPayment": false,
+      "HoldCollection": false,
+      "TopsId": "000041H001"
+    }
+  },
+  {
+    "AlternateName": "",
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 11,
+          "Name": "Property"
+        },
+        "AddressLine1": "110 Peacock Circle",
+        "AddressLine2": "",
+        "AddressLine3": null,
+        "City": "Safety Harbor",
+        "State": "FL",
+        "Zip": "34695",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [],
+    "CommunityKey": 6,
+    "FirstName": null,
+    "LastName": "MORENO",
+    "LegalName": "Randolph & Mortimer Moreno",
+    "MoveOutDate": null,
+    "Key": 42,
+    "PropertyKey": 42,
+    "ResidentType": "Owner",
+    "SettlementDate": null,
+    "CollectionTableKey": null,
+    "Links": [
+      {
+        "rel": "parent",
+        "href": "property/42"
+      },
+      {
+        "rel": "self",
+        "href": "owner/42"
+      },
+      {
+        "rel": "child",
+        "href": "owner/42/balance"
+      },
+      {
+        "rel": "child",
+        "href": "charge/42"
+      },
+      {
+        "rel": "child",
+        "href": "email?ContactType=Owner&ContactKey=42"
+      }
+    ],
+    "Metadata": {
+      "ModifiedDate": "2015-05-27T11:38:19",
+      "HoldPayment": false,
+      "HoldCollection": false,
+      "TopsId": "000042H001"
+    }
+  },
+  {
+    "AlternateName": "",
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 11,
+          "Name": "Property"
+        },
+        "AddressLine1": "111 Peacock Circle",
+        "AddressLine2": "",
+        "AddressLine3": null,
+        "City": "Safety Harbor",
+        "State": "FL",
+        "Zip": "34695",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [],
+    "CommunityKey": 6,
+    "FirstName": null,
+    "LastName": "FISHER",
+    "LegalName": "Drew Fisher",
+    "MoveOutDate": null,
+    "Key": 43,
+    "PropertyKey": 43,
+    "ResidentType": "Owner",
+    "SettlementDate": null,
+    "CollectionTableKey": null,
+    "Links": [
+      {
+        "rel": "parent",
+        "href": "property/43"
+      },
+      {
+        "rel": "self",
+        "href": "owner/43"
+      },
+      {
+        "rel": "child",
+        "href": "owner/43/balance"
+      },
+      {
+        "rel": "child",
+        "href": "charge/43"
+      },
+      {
+        "rel": "child",
+        "href": "email?ContactType=Owner&ContactKey=43"
+      }
+    ],
+    "Metadata": {
+      "ModifiedDate": "2015-05-27T11:38:19",
+      "HoldPayment": false,
+      "HoldCollection": false,
+      "TopsId": "000043H001"
+    }
+  },
+  {
+    "AlternateName": "",
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 11,
+          "Name": "Property"
+        },
+        "AddressLine1": "112 Peacock Circle",
+        "AddressLine2": "",
+        "AddressLine3": null,
+        "City": "Safety Harbor",
+        "State": "FL",
+        "Zip": "34695",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [],
+    "CommunityKey": 6,
+    "FirstName": null,
+    "LastName": "WILKERSON",
+    "LegalName": "Angie Wilkerson",
+    "MoveOutDate": null,
+    "Key": 44,
+    "PropertyKey": 44,
+    "ResidentType": "Owner",
+    "SettlementDate": null,
+    "CollectionTableKey": null,
+    "Links": [
+      {
+        "rel": "parent",
+        "href": "property/44"
+      },
+      {
+        "rel": "self",
+        "href": "owner/44"
+      },
+      {
+        "rel": "child",
+        "href": "owner/44/balance"
+      },
+      {
+        "rel": "child",
+        "href": "charge/44"
+      },
+      {
+        "rel": "child",
+        "href": "email?ContactType=Owner&ContactKey=44"
+      }
+    ],
+    "Metadata": {
+      "ModifiedDate": "2015-05-27T11:38:19",
+      "HoldPayment": false,
+      "HoldCollection": false,
+      "TopsId": "000044H001"
+    }
+  },
+  {
+    "AlternateName": "",
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 11,
+          "Name": "Property"
+        },
+        "AddressLine1": "113 Peacock Circle",
+        "AddressLine2": "",
+        "AddressLine3": null,
+        "City": "Safety Harbor",
+        "State": "FL",
+        "Zip": "34695",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [],
+    "CommunityKey": 6,
+    "FirstName": null,
+    "LastName": "RIVERA",
+    "LegalName": "Courtney Rivera",
+    "MoveOutDate": null,
+    "Key": 45,
+    "PropertyKey": 45,
+    "ResidentType": "Owner",
+    "SettlementDate": null,
+    "CollectionTableKey": null,
+    "Links": [
+      {
+        "rel": "parent",
+        "href": "property/45"
+      },
+      {
+        "rel": "self",
+        "href": "owner/45"
+      },
+      {
+        "rel": "child",
+        "href": "owner/45/balance"
+      },
+      {
+        "rel": "child",
+        "href": "charge/45"
+      },
+      {
+        "rel": "child",
+        "href": "email?ContactType=Owner&ContactKey=45"
+      }
+    ],
+    "Metadata": {
+      "ModifiedDate": "2015-05-27T11:38:19",
+      "HoldPayment": false,
+      "HoldCollection": false,
+      "TopsId": "000045H001"
+    }
+  },
+  {
+    "AlternateName": "",
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 11,
+          "Name": "Property"
+        },
+        "AddressLine1": "101 Chestnut Circle",
+        "AddressLine2": "",
+        "AddressLine3": null,
+        "City": "Safety Harbor",
+        "State": "FL",
+        "Zip": "34695",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [],
+    "CommunityKey": 6,
+    "FirstName": null,
+    "LastName": "PHILLIPS",
+    "LegalName": "Allison Phillips",
+    "MoveOutDate": null,
+    "Key": 46,
+    "PropertyKey": 46,
+    "ResidentType": "Owner",
+    "SettlementDate": null,
+    "CollectionTableKey": null,
+    "Links": [
+      {
+        "rel": "parent",
+        "href": "property/46"
+      },
+      {
+        "rel": "self",
+        "href": "owner/46"
+      },
+      {
+        "rel": "child",
+        "href": "owner/46/balance"
+      },
+      {
+        "rel": "child",
+        "href": "charge/46"
+      },
+      {
+        "rel": "child",
+        "href": "email?ContactType=Owner&ContactKey=46"
+      }
+    ],
+    "Metadata": {
+      "ModifiedDate": "2015-05-27T11:38:19",
+      "HoldPayment": false,
+      "HoldCollection": false,
+      "TopsId": "000046H001"
+    }
+  },
+  {
+    "AlternateName": "",
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 11,
+          "Name": "Property"
+        },
+        "AddressLine1": "102 Chestnut Circle",
+        "AddressLine2": "",
+        "AddressLine3": null,
+        "City": "Safety Harbor",
+        "State": "FL",
+        "Zip": "34695",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [],
+    "CommunityKey": 6,
+    "FirstName": null,
+    "LastName": "CLARK",
+    "LegalName": "Marjorie Clark",
+    "MoveOutDate": null,
+    "Key": 47,
+    "PropertyKey": 47,
+    "ResidentType": "Owner",
+    "SettlementDate": null,
+    "CollectionTableKey": null,
+    "Links": [
+      {
+        "rel": "parent",
+        "href": "property/47"
+      },
+      {
+        "rel": "self",
+        "href": "owner/47"
+      },
+      {
+        "rel": "child",
+        "href": "owner/47/balance"
+      },
+      {
+        "rel": "child",
+        "href": "charge/47"
+      },
+      {
+        "rel": "child",
+        "href": "email?ContactType=Owner&ContactKey=47"
+      }
+    ],
+    "Metadata": {
+      "ModifiedDate": "2015-05-27T11:38:19",
+      "HoldPayment": false,
+      "HoldCollection": false,
+      "TopsId": "000047H001"
+    }
+  },
+  {
+    "AlternateName": "",
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 11,
+          "Name": "Property"
+        },
+        "AddressLine1": "103 Chestnut Circle",
+        "AddressLine2": "",
+        "AddressLine3": null,
+        "City": "Safety Harbor",
+        "State": "FL",
+        "Zip": "34695",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [],
+    "CommunityKey": 6,
+    "FirstName": null,
+    "LastName": "ORTIZ",
+    "LegalName": "Simon Ortiz",
+    "MoveOutDate": null,
+    "Key": 48,
+    "PropertyKey": 48,
+    "ResidentType": "Owner",
+    "SettlementDate": null,
+    "CollectionTableKey": null,
+    "Links": [
+      {
+        "rel": "parent",
+        "href": "property/48"
+      },
+      {
+        "rel": "self",
+        "href": "owner/48"
+      },
+      {
+        "rel": "child",
+        "href": "owner/48/balance"
+      },
+      {
+        "rel": "child",
+        "href": "charge/48"
+      },
+      {
+        "rel": "child",
+        "href": "email?ContactType=Owner&ContactKey=48"
+      }
+    ],
+    "Metadata": {
+      "ModifiedDate": "2015-05-27T11:38:19",
+      "HoldPayment": false,
+      "HoldCollection": false,
+      "TopsId": "000048H001"
+    }
+  },
+  {
+    "AlternateName": "",
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 11,
+          "Name": "Property"
+        },
+        "AddressLine1": "104 Chestnut Circle",
+        "AddressLine2": "",
+        "AddressLine3": null,
+        "City": "Safety Harbor",
+        "State": "FL",
+        "Zip": "34695",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [],
+    "CommunityKey": 6,
+    "FirstName": null,
+    "LastName": "PAGE",
+    "LegalName": "Victoria Page",
+    "MoveOutDate": null,
+    "Key": 49,
+    "PropertyKey": 49,
+    "ResidentType": "Owner",
+    "SettlementDate": null,
+    "CollectionTableKey": null,
+    "Links": [
+      {
+        "rel": "parent",
+        "href": "property/49"
+      },
+      {
+        "rel": "self",
+        "href": "owner/49"
+      },
+      {
+        "rel": "child",
+        "href": "owner/49/balance"
+      },
+      {
+        "rel": "child",
+        "href": "charge/49"
+      },
+      {
+        "rel": "child",
+        "href": "email?ContactType=Owner&ContactKey=49"
+      }
+    ],
+    "Metadata": {
+      "ModifiedDate": "2015-05-27T11:38:19",
+      "HoldPayment": false,
+      "HoldCollection": false,
+      "TopsId": "000049H001"
+    }
+  },
+  {
+    "AlternateName": "",
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 11,
+          "Name": "Property"
+        },
+        "AddressLine1": "105 Chestnut Circle",
+        "AddressLine2": "",
+        "AddressLine3": null,
+        "City": "Safety Harbor",
+        "State": "FL",
+        "Zip": "34695",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [
+      {
+        "Key": 2,
+        "Type": {
+          "Key": 2,
+          "Name": "Home"
+        },
+        "IsPrimary": false,
+        "PhoneNumber": "727-555-8971",
+        "IsUnlisted": false
+      }
+    ],
+    "CommunityKey": 6,
+    "FirstName": null,
+    "LastName": "SUTTON",
+    "LegalName": "Doris Sutton",
+    "MoveOutDate": null,
+    "Key": 50,
+    "PropertyKey": 50,
+    "ResidentType": "Owner",
+    "SettlementDate": null,
+    "CollectionTableKey": null,
+    "Links": [
+      {
+        "rel": "parent",
+        "href": "property/50"
+      },
+      {
+        "rel": "self",
+        "href": "owner/50"
+      },
+      {
+        "rel": "child",
+        "href": "owner/50/balance"
+      },
+      {
+        "rel": "child",
+        "href": "charge/50"
+      },
+      {
+        "rel": "child",
+        "href": "email?ContactType=Owner&ContactKey=50"
+      }
+    ],
+    "Metadata": {
+      "ModifiedDate": "2015-05-27T11:38:19",
+      "HoldPayment": false,
+      "HoldCollection": false,
+      "TopsId": "000050H001"
+    }
+  },
+  {
+    "AlternateName": "",
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 11,
+          "Name": "Property"
+        },
+        "AddressLine1": "106 Chestnut Circle",
+        "AddressLine2": "",
+        "AddressLine3": null,
+        "City": "Safety Harbor",
+        "State": "FL",
+        "Zip": "34695",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [],
+    "CommunityKey": 6,
+    "FirstName": null,
+    "LastName": "TAYLOR",
+    "LegalName": "Lynn Taylor",
+    "MoveOutDate": null,
+    "Key": 51,
+    "PropertyKey": 51,
+    "ResidentType": "Owner",
+    "SettlementDate": null,
+    "CollectionTableKey": null,
+    "Links": [
+      {
+        "rel": "parent",
+        "href": "property/51"
+      },
+      {
+        "rel": "self",
+        "href": "owner/51"
+      },
+      {
+        "rel": "child",
+        "href": "owner/51/balance"
+      },
+      {
+        "rel": "child",
+        "href": "charge/51"
+      },
+      {
+        "rel": "child",
+        "href": "email?ContactType=Owner&ContactKey=51"
+      }
+    ],
+    "Metadata": {
+      "ModifiedDate": "2015-05-27T11:38:19",
+      "HoldPayment": false,
+      "HoldCollection": false,
+      "TopsId": "000051H001"
+    }
+  },
+  {
+    "AlternateName": "",
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 11,
+          "Name": "Property"
+        },
+        "AddressLine1": "107 Chestnut Circle",
+        "AddressLine2": "",
+        "AddressLine3": null,
+        "City": "Safety Harbor",
+        "State": "FL",
+        "Zip": "34695",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [],
+    "CommunityKey": 6,
+    "FirstName": null,
+    "LastName": "FIGUEROA",
+    "LegalName": "Clyde Figueroa",
+    "MoveOutDate": null,
+    "Key": 52,
+    "PropertyKey": 52,
+    "ResidentType": "Owner",
+    "SettlementDate": null,
+    "CollectionTableKey": null,
+    "Links": [
+      {
+        "rel": "parent",
+        "href": "property/52"
+      },
+      {
+        "rel": "self",
+        "href": "owner/52"
+      },
+      {
+        "rel": "child",
+        "href": "owner/52/balance"
+      },
+      {
+        "rel": "child",
+        "href": "charge/52"
+      },
+      {
+        "rel": "child",
+        "href": "email?ContactType=Owner&ContactKey=52"
+      }
+    ],
+    "Metadata": {
+      "ModifiedDate": "2015-05-27T11:38:19",
+      "HoldPayment": false,
+      "HoldCollection": false,
+      "TopsId": "000052H001"
+    }
+  },
+  {
+    "AlternateName": "",
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 11,
+          "Name": "Property"
+        },
+        "AddressLine1": "108 Chestnut Circle",
+        "AddressLine2": "",
+        "AddressLine3": null,
+        "City": "Safety Harbor",
+        "State": "FL",
+        "Zip": "34695",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [],
+    "CommunityKey": 6,
+    "FirstName": null,
+    "LastName": "MORTON",
+    "LegalName": "Ronnie & Gail Morton",
+    "MoveOutDate": null,
+    "Key": 53,
+    "PropertyKey": 53,
+    "ResidentType": "Owner",
+    "SettlementDate": null,
+    "CollectionTableKey": null,
+    "Links": [
+      {
+        "rel": "parent",
+        "href": "property/53"
+      },
+      {
+        "rel": "self",
+        "href": "owner/53"
+      },
+      {
+        "rel": "child",
+        "href": "owner/53/balance"
+      },
+      {
+        "rel": "child",
+        "href": "charge/53"
+      },
+      {
+        "rel": "child",
+        "href": "email?ContactType=Owner&ContactKey=53"
+      }
+    ],
+    "Metadata": {
+      "ModifiedDate": "2015-05-27T11:38:19",
+      "HoldPayment": false,
+      "HoldCollection": false,
+      "TopsId": "000053H001"
+    }
+  },
+  {
+    "AlternateName": "",
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 11,
+          "Name": "Property"
+        },
+        "AddressLine1": "109 Chestnut Circle",
+        "AddressLine2": "",
+        "AddressLine3": null,
+        "City": "Safety Harbor",
+        "State": "FL",
+        "Zip": "34695",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [],
+    "CommunityKey": 6,
+    "FirstName": null,
+    "LastName": "SNYDER",
+    "LegalName": "Brent Snyder",
+    "MoveOutDate": null,
+    "Key": 54,
+    "PropertyKey": 54,
+    "ResidentType": "Owner",
+    "SettlementDate": null,
+    "CollectionTableKey": null,
+    "Links": [
+      {
+        "rel": "parent",
+        "href": "property/54"
+      },
+      {
+        "rel": "self",
+        "href": "owner/54"
+      },
+      {
+        "rel": "child",
+        "href": "owner/54/balance"
+      },
+      {
+        "rel": "child",
+        "href": "charge/54"
+      },
+      {
+        "rel": "child",
+        "href": "email?ContactType=Owner&ContactKey=54"
+      }
+    ],
+    "Metadata": {
+      "ModifiedDate": "2015-05-27T11:38:19",
+      "HoldPayment": false,
+      "HoldCollection": false,
+      "TopsId": "000054H001"
+    }
+  },
+  {
+    "AlternateName": "",
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 11,
+          "Name": "Property"
+        },
+        "AddressLine1": "110 Chestnut Circle",
+        "AddressLine2": "",
+        "AddressLine3": null,
+        "City": "Safety Harbor",
+        "State": "FL",
+        "Zip": "34695",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [],
+    "CommunityKey": 6,
+    "FirstName": null,
+    "LastName": "CROSS",
+    "LegalName": "Nathaniel Cross",
+    "MoveOutDate": null,
+    "Key": 55,
+    "PropertyKey": 55,
+    "ResidentType": "Owner",
+    "SettlementDate": null,
+    "CollectionTableKey": null,
+    "Links": [
+      {
+        "rel": "parent",
+        "href": "property/55"
+      },
+      {
+        "rel": "self",
+        "href": "owner/55"
+      },
+      {
+        "rel": "child",
+        "href": "owner/55/balance"
+      },
+      {
+        "rel": "child",
+        "href": "charge/55"
+      },
+      {
+        "rel": "child",
+        "href": "email?ContactType=Owner&ContactKey=55"
+      }
+    ],
+    "Metadata": {
+      "ModifiedDate": "2015-05-27T11:38:19",
+      "HoldPayment": false,
+      "HoldCollection": false,
+      "TopsId": "000055H001"
+    }
+  },
+  {
+    "AlternateName": "",
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 11,
+          "Name": "Property"
+        },
+        "AddressLine1": "111 Chestnut Circle",
+        "AddressLine2": "",
+        "AddressLine3": null,
+        "City": "Safety Harbor",
+        "State": "FL",
+        "Zip": "34695",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [],
+    "CommunityKey": 6,
+    "FirstName": null,
+    "LastName": "PENA",
+    "LegalName": "Sidney Pena",
+    "MoveOutDate": null,
+    "Key": 56,
+    "PropertyKey": 56,
+    "ResidentType": "Owner",
+    "SettlementDate": null,
+    "CollectionTableKey": null,
+    "Links": [
+      {
+        "rel": "parent",
+        "href": "property/56"
+      },
+      {
+        "rel": "self",
+        "href": "owner/56"
+      },
+      {
+        "rel": "child",
+        "href": "owner/56/balance"
+      },
+      {
+        "rel": "child",
+        "href": "charge/56"
+      },
+      {
+        "rel": "child",
+        "href": "email?ContactType=Owner&ContactKey=56"
+      }
+    ],
+    "Metadata": {
+      "ModifiedDate": "2015-05-27T11:38:19",
+      "HoldPayment": false,
+      "HoldCollection": false,
+      "TopsId": "000056H001"
+    }
+  },
+  {
+    "AlternateName": "",
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 11,
+          "Name": "Property"
+        },
+        "AddressLine1": "112 Chestnut Circle",
+        "AddressLine2": "",
+        "AddressLine3": null,
+        "City": "Safety Harbor",
+        "State": "FL",
+        "Zip": "34695",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [],
+    "CommunityKey": 6,
+    "FirstName": null,
+    "LastName": "CURRY",
+    "LegalName": "Iris Curry",
+    "MoveOutDate": null,
+    "Key": 57,
+    "PropertyKey": 57,
+    "ResidentType": "Owner",
+    "SettlementDate": null,
+    "CollectionTableKey": null,
+    "Links": [
+      {
+        "rel": "parent",
+        "href": "property/57"
+      },
+      {
+        "rel": "self",
+        "href": "owner/57"
+      },
+      {
+        "rel": "child",
+        "href": "owner/57/balance"
+      },
+      {
+        "rel": "child",
+        "href": "charge/57"
+      },
+      {
+        "rel": "child",
+        "href": "email?ContactType=Owner&ContactKey=57"
+      }
+    ],
+    "Metadata": {
+      "ModifiedDate": "2015-05-27T11:38:19",
+      "HoldPayment": false,
+      "HoldCollection": false,
+      "TopsId": "000057H001"
+    }
+  },
+  {
+    "AlternateName": "",
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 11,
+          "Name": "Property"
+        },
+        "AddressLine1": "113 Chestnut Circle",
+        "AddressLine2": "",
+        "AddressLine3": null,
+        "City": "Safety Harbor",
+        "State": "FL",
+        "Zip": "34695",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [],
+    "CommunityKey": 6,
+    "FirstName": null,
+    "LastName": "MORRIS",
+    "LegalName": "Debra Morris",
+    "MoveOutDate": null,
+    "Key": 58,
+    "PropertyKey": 58,
+    "ResidentType": "Owner",
+    "SettlementDate": null,
+    "CollectionTableKey": null,
+    "Links": [
+      {
+        "rel": "parent",
+        "href": "property/58"
+      },
+      {
+        "rel": "self",
+        "href": "owner/58"
+      },
+      {
+        "rel": "child",
+        "href": "owner/58/balance"
+      },
+      {
+        "rel": "child",
+        "href": "charge/58"
+      },
+      {
+        "rel": "child",
+        "href": "email?ContactType=Owner&ContactKey=58"
+      }
+    ],
+    "Metadata": {
+      "ModifiedDate": "2015-05-27T11:38:19",
+      "HoldPayment": false,
+      "HoldCollection": false,
+      "TopsId": "000058H001"
+    }
+  }
+]

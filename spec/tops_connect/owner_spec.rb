@@ -7,10 +7,11 @@ RSpec.describe TopsConnect::Owner do
     TopsConnect::Client.new(6, 'AAAAAAAA-BBBB-CCCC-DDDD-EEEEEEEEEEEE')
   end
   let(:owner) { client.owner(3) }
+  let(:offsite_owner) { client.owner(999) }
 
   describe '#alternate_mailing_addresses' do
     it 'loads mailing addresses for the owner' do
-      mailing_addresses = owner.alternate_mailing_addresses
+      mailing_addresses = offsite_owner.alternate_mailing_addresses
 
       expect(mailing_addresses.length).to eq 1
 

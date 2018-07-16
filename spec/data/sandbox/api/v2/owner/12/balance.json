@@ -1,0 +1,77 @@
+{
+  "BalanceDetails": [
+    {
+      "CashApplicationOrder": 1,
+      "ChargeCode": "A1",
+      "Year": null,
+      "Balance": 0,
+      "Description": "Fees"
+    },
+    {
+      "CashApplicationOrder": 2,
+      "ChargeCode": "01",
+      "Year": null,
+      "Balance": 0,
+      "Description": "Late Fees"
+    },
+    {
+      "CashApplicationOrder": 3,
+      "ChargeCode": "05",
+      "Year": null,
+      "Balance": 0,
+      "Description": "Attorney Fees"
+    },
+    {
+      "CashApplicationOrder": 4,
+      "ChargeCode": "02",
+      "Year": null,
+      "Balance": 0,
+      "Description": "NSF charges"
+    },
+    {
+      "CashApplicationOrder": 5,
+      "ChargeCode": "03",
+      "Year": null,
+      "Balance": 0,
+      "Description": "Admin. Fees"
+    },
+    {
+      "CashApplicationOrder": 6,
+      "ChargeCode": "04",
+      "Year": null,
+      "Balance": 0,
+      "Description": "Interest"
+    },
+    {
+      "CashApplicationOrder": 7,
+      "ChargeCode": "08",
+      "Year": null,
+      "Balance": 0,
+      "Description": "Special Assmts."
+    },
+    {
+      "CashApplicationOrder": 8,
+      "ChargeCode": "PP",
+      "Year": null,
+      "Balance": 0,
+      "Description": "Credit-Prepaid"
+    }
+  ],
+  "BalanceTotal": 0,
+  "OwnerKey": 12,
+  "Prepaid": null,
+  "Links": [
+    {
+      "rel": "parent",
+      "href": "owner/12"
+    },
+    {
+      "rel": "self",
+      "href": "balance/12"
+    }
+  ],
+  "Metadata": {
+    "UsesYearlyAccounting": false,
+    "UsesRentalAccounting": false
+  }
+}

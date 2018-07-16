@@ -1,0 +1,77 @@
+[
+  {
+    "key": 1,
+    "code": "A1",
+    "description": "Fees"
+  },
+  {
+    "key": 2,
+    "code": "01",
+    "description": "Late Fees"
+  },
+  {
+    "key": 3,
+    "code": "02",
+    "description": "NSF charges"
+  },
+  {
+    "key": 4,
+    "code": "03",
+    "description": "Admin. Fees"
+  },
+  {
+    "key": 5,
+    "code": "04",
+    "description": "Interest"
+  },
+  {
+    "key": 6,
+    "code": "05",
+    "description": "Attorney Fees"
+  },
+  {
+    "key": 7,
+    "code": "06",
+    "description": "Work Order"
+  },
+  {
+    "key": 8,
+    "code": "07",
+    "description": "Misc. Charges"
+  },
+  {
+    "key": 9,
+    "code": "08",
+    "description": "Special Assmts."
+  },
+  {
+    "key": 10,
+    "code": "09",
+    "description": "Lockout Service"
+  },
+  {
+    "key": 11,
+    "code": "10",
+    "description": "Guest Pass"
+  },
+  {
+    "key": 12,
+    "code": "11",
+    "description": "Club House Rent"
+  },
+  {
+    "key": 13,
+    "code": "12",
+    "description": "Utility Charges"
+  },
+  {
+    "key": 14,
+    "code": "13",
+    "description": "CCR Fines"
+  },
+  {
+    "key": 15,
+    "code": "PREPD",
+    "description": "Credit-Prepaid"
+  }
+]

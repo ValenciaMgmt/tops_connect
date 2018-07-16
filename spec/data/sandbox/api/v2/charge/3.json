@@ -1,0 +1,35 @@
+[
+  {
+    "Code": "A1",
+    "ChargeCodeKey": 1,
+    "CheckNumber": "",
+    "CommunityKey": 6,
+    "CreditAmount": 35,
+    "DebitAmount": 35,
+    "DepositDate": null,
+    "Description": "Fees",
+    "OwnerKey": 3,
+    "PrepaidAccountCode": "",
+    "ProcessDescription": "APPLY CHARGES",
+    "ProcessName": "Expense Application",
+    "TransactionDate": "2015-01-01T00:00:00",
+    "Year": "",
+    "Links": [
+      {
+        "rel": "parent",
+        "href": "owner/3"
+      },
+      {
+        "rel": "self",
+        "href": "charge/3"
+      },
+      {
+        "rel": "sibling",
+        "href": "chargecode/1"
+      }
+    ],
+    "Metadata": {
+      "ModifiedDate": "2015-05-27T15:38:19"
+    }
+  }
+]

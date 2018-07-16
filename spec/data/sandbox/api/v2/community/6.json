@@ -1,0 +1,64 @@
+{
+  "Key": 6,
+  "Name": "Country Estates HOA",
+  "CommunityID": "CEH",
+  "LastSyncTime": "2015-05-27T12:23:31",
+  "PropertyTemplate": {
+    "City": "Safety Harbor",
+    "State": "FL",
+    "ZIP": "34695"
+  },
+  "Addresses": [
+    {
+      "Key": 1,
+      "Type": {
+        "Key": 7,
+        "Name": "CommunityOffice"
+      },
+      "AddressLine1": "C/O TOPS Management",
+      "AddressLine2": "2495 Enterprise Rd, Ste 201",
+      "AddressLine3": null,
+      "City": "Clearwater",
+      "State": "FL",
+      "Zip": "33763",
+      "IsPrimary": true
+    },
+    {
+      "Key": 2,
+      "Type": {
+        "Key": 5,
+        "Name": "ReturnPayment"
+      },
+      "AddressLine1": "9939 Universal Blvd",
+      "AddressLine2": "",
+      "AddressLine3": null,
+      "City": "Orlando",
+      "State": "FL",
+      "Zip": "32819",
+      "IsPrimary": false
+    }
+  ],
+  "Phones": [
+    {
+      "Key": 1,
+      "Type": {
+        "Key": 5,
+        "Name": "Main"
+      },
+      "IsPrimary": true,
+      "PhoneNumber": "800-760-9966",
+      "IsUnlisted": false
+    }
+  ],
+  "WebAddresses": [],
+  "Links": [
+    {
+      "rel": "self",
+      "href": "community/6"
+    }
+  ],
+  "Metadata": {
+    "TaxId": "",
+    "AccountingMethod": "Accrual"
+  }
+}

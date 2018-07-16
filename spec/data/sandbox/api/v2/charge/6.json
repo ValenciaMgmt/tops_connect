@@ -1,0 +1,68 @@
+[
+  {
+    "Code": "A1",
+    "ChargeCodeKey": null,
+    "CheckNumber": "8694",
+    "CommunityKey": 6,
+    "CreditAmount": -35,
+    "DebitAmount": -35,
+    "DepositDate": "2015-02-02T00:00:00",
+    "Description": "Fees",
+    "OwnerKey": 6,
+    "PrepaidAccountCode": "",
+    "ProcessDescription": "Cash Receipts",
+    "ProcessName": "Cash Receipt",
+    "TransactionDate": "2015-02-02T00:00:00",
+    "Year": "",
+    "Links": [
+      {
+        "rel": "parent",
+        "href": "owner/6"
+      },
+      {
+        "rel": "self",
+        "href": "charge/6"
+      },
+      {
+        "rel": "sibling",
+        "href": "chargecode/"
+      }
+    ],
+    "Metadata": {
+      "ModifiedDate": "2015-05-27T15:38:19"
+    }
+  },
+  {
+    "Code": "A1",
+    "ChargeCodeKey": 1,
+    "CheckNumber": "",
+    "CommunityKey": 6,
+    "CreditAmount": 35,
+    "DebitAmount": 35,
+    "DepositDate": null,
+    "Description": "Fees",
+    "OwnerKey": 6,
+    "PrepaidAccountCode": "",
+    "ProcessDescription": "APPLY CHARGES",
+    "ProcessName": "Expense Application",
+    "TransactionDate": "2015-01-01T00:00:00",
+    "Year": "",
+    "Links": [
+      {
+        "rel": "parent",
+        "href": "owner/6"
+      },
+      {
+        "rel": "self",
+        "href": "charge/6"
+      },
+      {
+        "rel": "sibling",
+        "href": "chargecode/1"
+      }
+    ],
+    "Metadata": {
+      "ModifiedDate": "2015-05-27T15:38:19"
+    }
+  }
+]

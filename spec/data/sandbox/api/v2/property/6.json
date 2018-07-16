@@ -1,0 +1,73 @@
+{
+  "Key": 6,
+  "AccountNumber": "113CVD",
+  "BuildingNumber": "000",
+  "CarrierRoute": "",
+  "CommunityKey": 6,
+  "LotUnitNumber": "",
+  "Addresses": [
+    {
+      "Key": 1,
+      "Type": {
+        "Key": 11,
+        "Name": "Property"
+      },
+      "AddressLine1": "113 Country Villas Drive",
+      "AddressLine2": "",
+      "AddressLine3": null,
+      "City": "Safety Harbor",
+      "State": "FL",
+      "Zip": "34695",
+      "IsPrimary": true
+    }
+  ],
+  "Links": [
+    {
+      "rel": "parent",
+      "href": "community/6"
+    },
+    {
+      "rel": "self",
+      "href": "property/6"
+    },
+    {
+      "rel": "child",
+      "href": "ccr?PropertyKey=6"
+    },
+    {
+      "rel": "child",
+      "href": "owner?PropertyKey=6"
+    },
+    {
+      "rel": "child",
+      "href": "servicerequest?PropertyKey=6"
+    },
+    {
+      "rel": "child",
+      "href": "vehicle?PropertyKey=6"
+    },
+    {
+      "rel": "child",
+      "href": "visitor?PropertyKey=6"
+    },
+    {
+      "rel": "child",
+      "href": "workorder?PropertyKey=6"
+    }
+  ],
+  "Metadata": {
+    "ModifiedDate": "2015-05-27T15:38:19",
+    "TopsId": "000006",
+    "Lockbox": "000006",
+    "LegalDescription": [
+      {
+        "Label": "Legal Description 1",
+        "Value": ""
+      },
+      {
+        "Label": "Legal Description 2",
+        "Value": ""
+      }
+    ]
+  }
+}

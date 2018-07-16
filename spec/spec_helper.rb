@@ -20,14 +20,14 @@ def stubbed_get_response(request)
           .gsub(/&?subscription-key=\h{32}/, '')
           .gsub(/\W/, '_')
 
-  path = [request.uri.path.gsub(%r{/?(broad|limited|sandbox)/api/?}, '')]
+  path = [request.uri.path]
   path << query unless query.empty?
 
   unless request.headers['Community-Api-Key']
     raise 'Did not send proper headers. Missing Community-Api-Key.'
   end
 
-  data_file = "../data/#{path.join('/')}.json"
+  data_file = "../data/#{path.join('/').gsub(%r{\A/|/\z}, '')}.json"
 
   {
     body: File.new(File.expand_path(data_file, __FILE__)),

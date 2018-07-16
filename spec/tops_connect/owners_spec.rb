@@ -21,7 +21,7 @@ RSpec.describe TopsConnect::Owners do
 
       expect(owners).to be_a Array
       expect(owners[0]).to be_a TopsConnect::Owner
-      expect(owners.length).to eq 2
+      expect(owners.length).to eq 1
     end
   end
 

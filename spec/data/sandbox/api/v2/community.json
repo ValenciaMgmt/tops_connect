@@ -1,0 +1,570 @@
+[
+  {
+    "Key": 1,
+    "Name": "Seventy Five",
+    "CommunityID": "075",
+    "LastSyncTime": null,
+    "PropertyTemplate": {
+      "City": "PORT HUENEME",
+      "State": "CA",
+      "ZIP": "93041"
+    },
+    "Addresses": [],
+    "Phones": [],
+    "WebAddresses": [],
+    "Links": [
+      {
+        "rel": "self",
+        "href": "community/1"
+      }
+    ],
+    "Metadata": {
+      "TaxId": null,
+      "AccountingMethod": "Accrual"
+    }
+  },
+  {
+    "Key": 2,
+    "Name": "Two Four Seven",
+    "CommunityID": "247",
+    "LastSyncTime": null,
+    "PropertyTemplate": {
+      "City": "Davie",
+      "State": "FL",
+      "ZIP": "33331"
+    },
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 7,
+          "Name": "CommunityOffice"
+        },
+        "AddressLine1": "247 This Way",
+        "AddressLine2": "",
+        "AddressLine3": null,
+        "City": "Clearwater",
+        "State": "FL",
+        "Zip": "33763",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [],
+    "WebAddresses": [],
+    "Links": [
+      {
+        "rel": "self",
+        "href": "community/2"
+      }
+    ],
+    "Metadata": {
+      "TaxId": null,
+      "AccountingMethod": "Accrual"
+    }
+  },
+  {
+    "Key": 3,
+    "Name": "Three Eight Nine",
+    "CommunityID": "389",
+    "LastSyncTime": null,
+    "PropertyTemplate": {
+      "City": "Orlando",
+      "State": "FL",
+      "ZIP": "32828"
+    },
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 7,
+          "Name": "CommunityOffice"
+        },
+        "AddressLine1": "389 This Way",
+        "AddressLine2": "",
+        "AddressLine3": null,
+        "City": "tampa",
+        "State": "FL",
+        "Zip": "33666",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [],
+    "WebAddresses": [],
+    "Links": [
+      {
+        "rel": "self",
+        "href": "community/3"
+      }
+    ],
+    "Metadata": {
+      "TaxId": null,
+      "AccountingMethod": "Accrual"
+    }
+  },
+  {
+    "Key": 4,
+    "Name": "Sabal Pointe Townhomes POA,Inc",
+    "CommunityID": "450",
+    "LastSyncTime": null,
+    "PropertyTemplate": {
+      "City": "Tampa",
+      "State": "FL",
+      "ZIP": "33610"
+    },
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 7,
+          "Name": "CommunityOffice"
+        },
+        "AddressLine1": "2906 Busch Lake Blvd",
+        "AddressLine2": "",
+        "AddressLine3": null,
+        "City": "Tampa",
+        "State": "FL",
+        "Zip": "33614",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 5,
+          "Name": "Main"
+        },
+        "IsPrimary": true,
+        "PhoneNumber": "813-868-1104",
+        "IsUnlisted": false
+      }
+    ],
+    "WebAddresses": [],
+    "Links": [
+      {
+        "rel": "self",
+        "href": "community/4"
+      }
+    ],
+    "Metadata": {
+      "TaxId": null,
+      "AccountingMethod": "Accrual"
+    }
+  },
+  {
+    "Key": 5,
+    "Name": "Seventy Five",
+    "CommunityID": "75",
+    "LastSyncTime": null,
+    "PropertyTemplate": {
+      "City": "",
+      "State": "",
+      "ZIP": ""
+    },
+    "Addresses": [],
+    "Phones": [],
+    "WebAddresses": [],
+    "Links": [
+      {
+        "rel": "self",
+        "href": "community/5"
+      }
+    ],
+    "Metadata": {
+      "TaxId": null,
+      "AccountingMethod": "Accrual"
+    }
+  },
+  {
+    "Key": 6,
+    "Name": "Country Estates HOA",
+    "CommunityID": "CEH",
+    "LastSyncTime": "2015-05-27T12:23:31",
+    "PropertyTemplate": {
+      "City": "Safety Harbor",
+      "State": "FL",
+      "ZIP": "34695"
+    },
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 7,
+          "Name": "CommunityOffice"
+        },
+        "AddressLine1": "C/O TOPS Management",
+        "AddressLine2": "2495 Enterprise Rd, Ste 201",
+        "AddressLine3": null,
+        "City": "Clearwater",
+        "State": "FL",
+        "Zip": "33763",
+        "IsPrimary": true
+      },
+      {
+        "Key": 2,
+        "Type": {
+          "Key": 5,
+          "Name": "ReturnPayment"
+        },
+        "AddressLine1": "9939 Universal Blvd",
+        "AddressLine2": "",
+        "AddressLine3": null,
+        "City": "Orlando",
+        "State": "FL",
+        "Zip": "32819",
+        "IsPrimary": false
+      }
+    ],
+    "Phones": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 5,
+          "Name": "Main"
+        },
+        "IsPrimary": true,
+        "PhoneNumber": "800-760-9966",
+        "IsUnlisted": false
+      }
+    ],
+    "WebAddresses": [],
+    "Links": [
+      {
+        "rel": "self",
+        "href": "community/6"
+      }
+    ],
+    "Metadata": {
+      "TaxId": "",
+      "AccountingMethod": "Accrual"
+    }
+  },
+  {
+    "Key": 7,
+    "Name": "Halo Victor Rudolph",
+    "CommunityID": "HVR",
+    "LastSyncTime": null,
+    "PropertyTemplate": {
+      "City": "Erie",
+      "State": "CO",
+      "ZIP": "80516"
+    },
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 7,
+          "Name": "CommunityOffice"
+        },
+        "AddressLine1": "123 This Way",
+        "AddressLine2": "",
+        "AddressLine3": null,
+        "City": "Clearwater",
+        "State": "FL",
+        "Zip": "33763",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [],
+    "WebAddresses": [],
+    "Links": [
+      {
+        "rel": "self",
+        "href": "community/7"
+      }
+    ],
+    "Metadata": {
+      "TaxId": null,
+      "AccountingMethod": "Accrual"
+    }
+  },
+  {
+    "Key": 8,
+    "Name": "Southbay Yacht & Racquet Club",
+    "CommunityID": "SBY",
+    "LastSyncTime": null,
+    "PropertyTemplate": {
+      "City": "Osprey",
+      "State": "FL",
+      "ZIP": "34229"
+    },
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 7,
+          "Name": "CommunityOffice"
+        },
+        "AddressLine1": "1400 Southbay Drive",
+        "AddressLine2": "",
+        "AddressLine3": null,
+        "City": "Osprey",
+        "State": "FL",
+        "Zip": "34229",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 5,
+          "Name": "Main"
+        },
+        "IsPrimary": true,
+        "PhoneNumber": "941-966-4237",
+        "IsUnlisted": false
+      }
+    ],
+    "WebAddresses": [],
+    "Links": [
+      {
+        "rel": "self",
+        "href": "community/8"
+      }
+    ],
+    "Metadata": {
+      "TaxId": null,
+      "AccountingMethod": "Accrual"
+    }
+  },
+  {
+    "Key": 9,
+    "Name": "Stillwater at SS HOA",
+    "CommunityID": "SW",
+    "LastSyncTime": null,
+    "PropertyTemplate": {
+      "City": "Saratoga Springs",
+      "State": "UT",
+      "ZIP": "84045"
+    },
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 7,
+          "Name": "CommunityOffice"
+        },
+        "AddressLine1": "c/o HOA Solutions",
+        "AddressLine2": "212 E Crossroads Blvd, #511",
+        "AddressLine3": null,
+        "City": "Saratoga Springs",
+        "State": "UT",
+        "Zip": "84043",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 5,
+          "Name": "Main"
+        },
+        "IsPrimary": true,
+        "PhoneNumber": "801.341.2999",
+        "IsUnlisted": false
+      }
+    ],
+    "WebAddresses": [],
+    "Links": [
+      {
+        "rel": "self",
+        "href": "community/9"
+      }
+    ],
+    "Metadata": {
+      "TaxId": null,
+      "AccountingMethod": "Accrual"
+    }
+  },
+  {
+    "Key": 10,
+    "Name": "Trafalgar Square",
+    "CommunityID": "TFG",
+    "LastSyncTime": null,
+    "PropertyTemplate": {
+      "City": "Tampa",
+      "State": "FL",
+      "ZIP": "33624"
+    },
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 7,
+          "Name": "CommunityOffice"
+        },
+        "AddressLine1": "2906 Busch Lake Blvd",
+        "AddressLine2": "",
+        "AddressLine3": null,
+        "City": "Tampa",
+        "State": "FL",
+        "Zip": "33614",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 5,
+          "Name": "Main"
+        },
+        "IsPrimary": true,
+        "PhoneNumber": "813-868-1104",
+        "IsUnlisted": false
+      }
+    ],
+    "WebAddresses": [],
+    "Links": [
+      {
+        "rel": "self",
+        "href": "community/10"
+      }
+    ],
+    "Metadata": {
+      "TaxId": null,
+      "AccountingMethod": "Accrual"
+    }
+  },
+  {
+    "Key": 11,
+    "Name": "Villages at SS HOA",
+    "CommunityID": "VSS",
+    "LastSyncTime": null,
+    "PropertyTemplate": {
+      "City": "Saratoga Springs",
+      "State": "UT",
+      "ZIP": "84045"
+    },
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 7,
+          "Name": "CommunityOffice"
+        },
+        "AddressLine1": "c/o HOA Solutions",
+        "AddressLine2": "212 E Crossroads Blvd, #511",
+        "AddressLine3": null,
+        "City": "Saratoga Springs",
+        "State": "UT",
+        "Zip": "84043",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 5,
+          "Name": "Main"
+        },
+        "IsPrimary": true,
+        "PhoneNumber": "801.341.2999",
+        "IsUnlisted": false
+      }
+    ],
+    "WebAddresses": [],
+    "Links": [
+      {
+        "rel": "self",
+        "href": "community/11"
+      }
+    ],
+    "Metadata": {
+      "TaxId": null,
+      "AccountingMethod": "Accrual"
+    }
+  },
+  {
+    "Key": 12,
+    "Name": "Woodmont Homeowners Assn",
+    "CommunityID": "WDT",
+    "LastSyncTime": null,
+    "PropertyTemplate": {
+      "City": "Tampa",
+      "State": "FL",
+      "ZIP": "33625"
+    },
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 7,
+          "Name": "CommunityOffice"
+        },
+        "AddressLine1": "2906 Busch Lake Blvd",
+        "AddressLine2": "",
+        "AddressLine3": null,
+        "City": "Tampa",
+        "State": "FL",
+        "Zip": "33614",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 5,
+          "Name": "Main"
+        },
+        "IsPrimary": true,
+        "PhoneNumber": "813-868-1104",
+        "IsUnlisted": false
+      }
+    ],
+    "WebAddresses": [],
+    "Links": [
+      {
+        "rel": "self",
+        "href": "community/12"
+      }
+    ],
+    "Metadata": {
+      "TaxId": null,
+      "AccountingMethod": "Accrual"
+    }
+  },
+  {
+    "Key": 13,
+    "Name": "Sample Condos",
+    "CommunityID": "XX",
+    "LastSyncTime": null,
+    "PropertyTemplate": {
+      "City": "Odessa",
+      "State": "FL",
+      "ZIP": "33726"
+    },
+    "Addresses": [
+      {
+        "Key": 1,
+        "Type": {
+          "Key": 7,
+          "Name": "CommunityOffice"
+        },
+        "AddressLine1": "123 This Way",
+        "AddressLine2": "",
+        "AddressLine3": null,
+        "City": "",
+        "State": "",
+        "Zip": "",
+        "IsPrimary": true
+      }
+    ],
+    "Phones": [],
+    "WebAddresses": [],
+    "Links": [
+      {
+        "rel": "self",
+        "href": "community/13"
+      }
+    ],
+    "Metadata": {
+      "TaxId": null,
+      "AccountingMethod": "Accrual"
+    }
+  }
+]
