@@ -17,8 +17,8 @@ DEFAULT_RESPONSE_HEADERS = {
 
 def mocked_file_path(request)
   query = request.uri.query
-          .gsub(/&?subscription-key=\h{32}/, '')
-          .gsub(/\W/, '_')
+    .gsub(/&?subscription-key=\h{32}/, '')
+    .gsub(/\W/, '_')
 
   path = [request.uri.path]
   path << query unless query.empty?

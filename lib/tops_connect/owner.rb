@@ -109,11 +109,11 @@ module TopsConnect
     def address_lines(address)
       lines = []
 
-      if row['AddressLine1'].match?(/[[:graph:]]/)
+      if address['AddressLine1'].match?(/[[:graph:]]/)
         lines << address['AddressLine1']
       end
 
-      if row['AddressLine2'].match?(/[[:graph:]]/)
+      if address['AddressLine2'].match?(/[[:graph:]]/)
         lines << address['AddressLine2']
       end
 

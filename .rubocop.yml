@@ -5,7 +5,7 @@ Style/Documentation:
   Enabled: false
 
 Layout/MultilineMethodCallIndentation:
-  Enabled: false
+  EnforcedStyle: indented
 
 Metrics/BlockLength:
   Exclude:
