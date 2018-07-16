@@ -13,18 +13,15 @@ module TopsConnect
 
     def address
       property = data['Addresses']
-        .find { |row| row['Type']['Name'] == 'Property' }
+        .find { |row| row.dig('Type', 'Name') == 'Property' }
 
       lines = [
         property['AddressLine1'],
         property['AddressLine2'],
-        "#{property['City']}, #{property['State']} #{property['Zip']}"
+        city_state_zip
       ]
 
-      lines
-        .map(&:strip)
-        .select { |line| line.match?(/[[:graph:]]/) }
-        .join("\n")
+      lines.map(&:strip).select { |line| line.match?(/[[:graph:]]/) }.join("\n")
     end
 
     def community_key
@@ -37,5 +34,9 @@ module TopsConnect
       Time.parse data['Metadata']['ModifiedDate']
     end
     alias updated_at modified_date
+
+    def city_state_zip
+      "#{property['City']}, #{property['State']} #{property['Zip']}"
+    end
   end
 end

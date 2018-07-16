@@ -11,6 +11,7 @@ module TopsConnect
 
     headers 'Content-Type' => 'application/json'
 
+    # TODO: Sandbox uses /sandbox/api/v2, Broad uses /v2/broad/api
     base_uri 'https://topsconnectapi.azure-api.net/v2'
 
     def initialize(community_id, community_api_key)
@@ -73,10 +74,8 @@ module TopsConnect
 
     def raise_exception(response)
       case response.code
-      when 404
-        raise TopsConnect::NotFoundError, response
-      when 400..499
-        raise TopsConnect::ClientError, response
+      when 404 then raise TopsConnect::NotFoundError, response
+      when 400..499 then raise TopsConnect::ClientError, response
       when 500..599
         message = TopsConnect::ApiError.error_message(response.parsed_response)
 
