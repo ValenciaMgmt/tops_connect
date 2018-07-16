@@ -15,7 +15,7 @@ DEFAULT_RESPONSE_HEADERS = {
   'X-Powered-By': 'ASP.NET'
 }.freeze
 
-def stubbed_get_response(request)
+def mocked_file_path(request)
   query = request.uri.query
           .gsub(/&?subscription-key=\h{32}/, '')
           .gsub(/\W/, '_')
@@ -23,14 +23,16 @@ def stubbed_get_response(request)
   path = [request.uri.path]
   path << query unless query.empty?
 
+  File.expand_path "../data/#{path.join('/')}.json", __FILE__
+end
+
+def stubbed_get_response(request)
   unless request.headers['Community-Api-Key']
     raise 'Did not send proper headers. Missing Community-Api-Key.'
   end
 
-  data_file = "../data/#{path.join('/').gsub(%r{\A/|/\z}, '')}.json"
-
   {
-    body: File.new(File.expand_path(data_file, __FILE__)),
+    body: File.new(mocked_file_path(request)),
     status: 200,
     headers: DEFAULT_RESPONSE_HEADERS
   }

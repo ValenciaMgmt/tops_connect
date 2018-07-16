@@ -24,9 +24,9 @@ module TopsConnect
     def charge_codes
       get('/chargecode').map do |charge_code|
         {
-          key: charge_code['ChargeCodeKey'],
-          code: charge_code['Code'],
-          description: charge_code['Description']
+          key: charge_code['key'],
+          code: charge_code['code'],
+          description: charge_code['description']
         }
       end
     end
