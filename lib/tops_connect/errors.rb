@@ -10,9 +10,20 @@ module TopsConnect
       format(
         '%<code>s: %<message>s (%<uri>s)',
         code: @response.code,
-        message: @response.parsed_response&.dig('Message'),
+        message: self.class.error_message(@response.parsed_response),
         uri: @response.request.last_uri.to_s
       )
+    end
+
+    def self.error_message(parsed_response)
+      case parsed_response
+      when String
+        parsed_response
+      when Hash
+        parsed_response.dig('Message')
+      else
+        ''
+      end
     end
   end
 

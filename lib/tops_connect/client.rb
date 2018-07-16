@@ -78,7 +78,7 @@ module TopsConnect
       when 400..499
         raise TopsConnect::ClientError, response
       when 500..599
-        message = response.parsed_response&.dig('Message') || ''
+        message = TopsConnect::ApiError.error_message(response.parsed_response)
 
         # These errors can largely be ignored - it's not our fault
         raise TopsConnect::TimeoutError, response if message['Timeout expired']
