@@ -12,9 +12,6 @@ module TopsConnect
     end
 
     def address
-      property = data['Addresses']
-        .find { |row| row.dig('Type', 'Name') == 'Property' }
-
       lines = [
         property['AddressLine1'],
         property['AddressLine2'],
@@ -37,6 +34,13 @@ module TopsConnect
 
     def city_state_zip
       "#{property['City']}, #{property['State']} #{property['Zip']}"
+    end
+
+    protected
+
+    def property
+      @property ||= data['Addresses']
+        .find { |row| row.dig('Type', 'Name') == 'Property' }
     end
   end
 end
