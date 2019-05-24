@@ -12,13 +12,10 @@ module TopsConnect
     end
 
     def address
-      lines = [
-        property['AddressLine1'],
-        property['AddressLine2'],
-        city_state_zip
-      ]
-
-      lines.map(&:strip).select { |line| line.match?(/[[:graph:]]/) }.join("\n")
+      [*address_lines_with_unit_number, city_state_zip]
+        .map(&:strip)
+        .select { |line| line.match?(/[[:graph:]]/) }
+        .join("\n")
     end
 
     def community_key
@@ -41,6 +38,18 @@ module TopsConnect
     def property
       @property ||= data['Addresses']
         .find { |row| row.dig('Type', 'Name') == 'Property' }
+    end
+
+    # Sometimes the unit number is alone on the second line
+    def address_lines_with_unit_number
+      if property['AddressLine2'].match?(/\A\d+\z/)
+        return ["#{property['AddressLine1']} ##{property['AddressLine2']}"]
+      end
+
+      [
+        property['AddressLine1'],
+        property['AddressLine2']
+      ]
     end
   end
 end
