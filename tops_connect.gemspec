@@ -1,5 +1,8 @@
 # frozen_string_literal: true
 
+# Copyright (c) 2019 Valencia Management Group
+# All rights reserved.
+
 lib = File.expand_path('lib', __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'tops_connect/version'

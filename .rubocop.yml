@@ -10,3 +10,11 @@ Layout/MultilineMethodCallIndentation:
 Metrics/BlockLength:
   Exclude:
     - 'spec/**/*.rb'
+
+Style/Copyright:
+  # AutocorrectNotice: |
+  #   # Copyright (c) 2019 Valencia Management Group
+  #   # All rights reserved.
+  Notice: '^# Copyright (\(c\) )?2[0-9]{3} .+'
+  Exclude:
+    - 'bin/**/*'

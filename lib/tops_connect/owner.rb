@@ -1,5 +1,8 @@
 # frozen_string_literal: true
 
+# Copyright (c) 2019 Valencia Management Group
+# All rights reserved.
+
 module TopsConnect
   class Owner < Base
     def owner_key

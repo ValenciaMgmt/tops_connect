@@ -1,5 +1,8 @@
 # frozen_string_literal: true
 
+# Copyright (c) 2019 Valencia Management Group
+# All rights reserved.
+
 require 'base64'
 require 'httparty'
 require 'json'
