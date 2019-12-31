@@ -10,10 +10,16 @@ module TopsConnect
     end
     alias id owner_key
 
+    def addresses
+      @addresses ||= data['Addresses'].map do |record|
+        TopsConnect::Address.new(record, owner: self)
+      end
+    end
+
     def alternate_mailing_addresses
       data['Addresses']
-        .select { |row| row['Type']['Name'] == 'Alternate' }
-        .map { |row| offsite_address(row) }
+        .select { |address| address.type == 'Alternate' }
+        .map(&:formatted)
         .compact
     end
 
@@ -95,32 +101,6 @@ module TopsConnect
     # owner number in the format PPPPPPTOOO.
     def tops_id
       data['Metadata']['TopsId']
-    end
-
-    protected
-
-    def offsite_address(address)
-      lines = address_lines(address)
-
-      return if lines.empty?
-
-      lines << "#{address['City']}, #{address['State']} #{address['Zip']}"
-
-      lines.map(&:strip).join("\n")
-    end
-
-    def address_lines(address)
-      lines = []
-
-      if address['AddressLine1'].match?(/[[:graph:]]/)
-        lines << address['AddressLine1']
-      end
-
-      if address['AddressLine2'].match?(/[[:graph:]]/)
-        lines << address['AddressLine2']
-      end
-
-      lines
     end
   end
 end

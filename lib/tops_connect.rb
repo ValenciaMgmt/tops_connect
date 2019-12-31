@@ -18,6 +18,7 @@ require 'tops_connect/base'
 require 'tops_connect/community'
 require 'tops_connect/owner'
 require 'tops_connect/property'
+require 'tops_connect/address'
 
 require 'tops_connect/configuration'
 require 'tops_connect/client'
