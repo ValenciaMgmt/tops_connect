@@ -37,5 +37,12 @@ module TopsConnect
     def charges(owner_key)
       get "/charge/#{owner_key}"
     end
+
+    # Method: PUT
+    # Endpoint: Owner_Put
+    # Returns: Hash
+    def update_owner!(owner_key, data)
+      put "/owner/#{owner_key}", body: data
+    end
   end
 end
