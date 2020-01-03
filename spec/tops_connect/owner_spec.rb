@@ -9,6 +9,21 @@ RSpec.describe TopsConnect::Owner do
   let(:owner) { client.owner(3) }
   let(:offsite_owner) { client.owner(999) }
 
+  describe '#addresses' do
+    it 'does a thing' do
+      addresses = offsite_owner.addresses
+
+      alternate_addresses = addresses
+        .filter { |address| address.type == 'Alternate' }
+
+      expect(alternate_addresses.count).to eq 1
+
+      alternate = alternate_addresses[0]
+
+      expect(alternate.formatted).to eq "123 Main Street\nAnytown, CA 12345"
+    end
+  end
+
   describe '#alternate_mailing_addresses' do
     it 'loads mailing addresses for the owner' do
       mailing_addresses = offsite_owner.alternate_mailing_addresses
