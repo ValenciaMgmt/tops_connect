@@ -17,7 +17,7 @@ module TopsConnect
     end
 
     def alternate_mailing_addresses
-      data['Addresses']
+      addresses
         .select { |address| address.type == 'Alternate' }
         .map(&:formatted)
         .compact
