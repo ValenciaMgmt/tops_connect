@@ -52,7 +52,7 @@ module TopsConnect
         "/#{TopsConnect.configuration.zone}/api#{endpoint}",
         query: query.merge('subscription-key' => @subscription_key),
         headers: headers.merge('community-api-key' => @community_api_key),
-        body: body
+        body: body.to_json
       )
 
       raise_exception(response) unless response.code == 204
@@ -65,7 +65,7 @@ module TopsConnect
         "/#{TopsConnect.configuration.zone}/api#{endpoint}",
         query: query.merge('subscription-key' => @subscription_key),
         headers: headers.merge('community-api-key' => @community_api_key),
-        body: body
+        body: body.to_json
       )
 
       raise_exception(response) unless response.code == 200
