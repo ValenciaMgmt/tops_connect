@@ -55,7 +55,7 @@ module TopsConnect
         body: body.to_json
       )
 
-      raise_exception(response) unless response.code == 204
+      raise_exception(response) unless response.code == 200
 
       response.parsed_response
     end
